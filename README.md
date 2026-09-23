@@ -1,1 +1,1688 @@
-# zerotaxi
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zero Taxi - Premium Kerala Tour Packages, Airport Transfers & 24/7 Innova Crysta Taxi</title>
+  <meta name="description" content="Zero Taxi: Ride Zero. Worry Zero. Luxury Kerala Taxi Service featuring premium Toyota Innova Crysta (KL 08 BW 0770), Cochin Airport Transfers, Munnar & Alleppey Tour Packages. Call 9605 913 120 / 9946 913 120.">
+  <meta name="keywords" content="Zero Taxi, Innova Crysta Kerala, KL 08 BW 0770, Cochin Airport Taxi, Kerala Tour Packages, Munnar Taxi, Alleppey Houseboat Taxi, Luxury Cab Service Kerala">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              gold: '#E5A93C',
+              goldLight: '#FFD670',
+              goldDark: '#B87B19',
+              deep: '#080A0E',
+              card: '#12151D',
+              surface: '#1A1E29',
+              border: 'rgba(255, 255, 255, 0.09)'
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Custom Luxury Styles -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="text-slate-100 selection:bg-brand-gold selection:text-black">
+
+  <!-- FIXED SITE-WIDE MUNNAR MOUNTAIN ROAD WITH TOYOTA INNOVA CRYSTA WALLPAPER -->
+  <div class="fixed inset-0 pointer-events-none -z-50 overflow-hidden" aria-hidden="true">
+    <img src="assets/images/crysta-munnar-road.jpg" alt="Munnar Mountain Road with Toyota Innova Crysta" class="w-full h-full object-cover object-center filter saturate-[1.25] brightness-[0.88] scale-105">
+    <div class="absolute inset-0 bg-gradient-to-b from-neutral-950/70 via-neutral-950/45 to-neutral-950/80"></div>
+    <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_transparent_0%,_rgba(8,10,14,0.45)_100%)]"></div>
+  </div>
+
+  <!-- TOP EMERGENCY & CONTACT BAR -->
+  <div class="bg-neutral-950/80 backdrop-blur-md border-b border-brand-border text-xs sm:text-sm py-2 px-4 sm:px-8">
+    <div class="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-2">
+      <div class="flex items-center space-x-4">
+        <span class="inline-flex items-center text-brand-gold font-bold tracking-wider">
+          <span class="w-2.5 h-2.5 bg-emerald-500 rounded-full inline-block mr-2 animate-pulse"></span>
+          24/7 DISPATCH ACTIVE EVERYDAY
+        </span>
+        <span class="hidden md:inline text-neutral-600">|</span>
+        <span class="hidden md:inline text-slate-300">
+          <i class="fa-solid fa-location-dot text-brand-gold mr-1.5"></i> Kerala & All South India Tours
+        </span>
+      </div>
+
+      <div class="flex items-center space-x-3 sm:space-x-6">
+        <a href="tel:+919605913120" class="hover:text-brand-gold transition flex items-center font-bold text-slate-200">
+          <i class="fa-solid fa-phone-volume text-brand-gold mr-1.5 text-xs"></i> 9605 913 120
+        </a>
+        <span class="text-neutral-600">/</span>
+        <a href="tel:+919946913120" class="hover:text-brand-gold transition flex items-center font-bold text-slate-200">
+          <i class="fa-solid fa-phone text-brand-gold mr-1.5 text-xs"></i> 9946 913 120
+        </a>
+        <a href="https://wa.me/919605913120?text=Hello%20Zero%20Taxi,%20I%20would%20like%20to%20inquire%20about%20Innova%20Crysta%20taxi%20booking" target="_blank" class="hidden sm:inline-flex items-center bg-emerald-600 hover:bg-emerald-500 text-white px-3 py-1 rounded-full text-xs font-bold transition shadow-sm">
+          <i class="fa-brands fa-whatsapp mr-1.5 text-sm"></i> WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVIGATION BAR -->
+  <header class="sticky top-0 z-50 bg-brand-deep/90 backdrop-blur-xl border-b border-brand-border">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-2 lg:gap-4">
+      <!-- Logo with Strict Single-Line Alignment -->
+      <a href="#home" class="flex items-center space-x-2.5 group flex-shrink-0 whitespace-nowrap min-w-max">
+        <img src="assets/images/logo.jpg" alt="Zero Taxi Logo" class="h-11 sm:h-12 w-auto object-contain rounded-xl border border-brand-gold/40 shadow-sm group-hover:border-brand-gold transition flex-shrink-0">
+        <div class="flex flex-col justify-center flex-shrink-0">
+          <span class="brand-title text-lg sm:text-xl lg:text-2xl font-black tracking-wider text-white whitespace-nowrap leading-none">
+            ZERO <span class="gold-gradient-text">TAXI</span>
+          </span>
+          <span class="brand-tagline text-[8px] sm:text-[9px] tracking-[0.14em] text-brand-goldLight font-bold uppercase whitespace-nowrap block mt-0.5 leading-none">
+            Ride Zero. Worry Zero.
+          </span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Menu (Always Visible on Laptop & Desktop screens) -->
+      <nav class="hidden lg:flex items-center space-x-2 xl:space-x-4 2xl:space-x-6 font-semibold text-xs xl:text-sm text-slate-200 whitespace-nowrap flex-shrink-0">
+        <a href="#home" class="whitespace-nowrap hover:text-brand-gold transition px-1.5 py-1">Home</a>
+        <a href="#booking" class="whitespace-nowrap hover:text-brand-gold transition px-1.5 py-1">Book Ride</a>
+        <a href="#crysta-showcase" class="whitespace-nowrap hover:text-brand-gold text-brand-gold flex items-center gap-1 transition px-1.5 py-1">
+          <i class="fa-solid fa-car-side"></i> Crysta
+        </a>
+        <a href="#services" class="whitespace-nowrap hover:text-brand-gold text-brand-goldLight font-bold transition px-2 py-1 bg-brand-gold/10 border border-brand-gold/30 rounded-lg">
+          <i class="fa-solid fa-bell-concierge mr-1 text-xs"></i> Services
+        </a>
+        <a href="#packages" class="whitespace-nowrap hover:text-brand-gold transition px-1.5 py-1">Packages</a>
+        <a href="#destinations" class="whitespace-nowrap hover:text-brand-gold text-emerald-400 flex items-center gap-1 transition px-1.5 py-1">
+          <i class="fa-solid fa-mountain-sun"></i> Destinations
+        </a>
+        <a href="#fleet" class="whitespace-nowrap hover:text-brand-gold transition px-1.5 py-1">Fleet</a>
+        <a href="#routes" class="whitespace-nowrap hover:text-brand-gold transition px-1.5 py-1">Routes</a>
+        <a href="#contact" class="whitespace-nowrap hover:text-brand-gold transition px-1.5 py-1">Contact</a>
+      </nav>
+
+      <!-- Header CTA -->
+      <div class="hidden sm:flex items-center space-x-2 flex-shrink-0">
+        <a href="#booking" class="gold-gradient-bg text-black font-extrabold px-3.5 py-2 lg:px-4 rounded-xl shadow-md transition flex items-center space-x-1.5 whitespace-nowrap text-xs flex-shrink-0">
+          <i class="fa-solid fa-taxi"></i>
+          <span>Instant Booking</span>
+        </a>
+      </div>
+
+      <!-- Mobile / Small Screen Menu Button -->
+      <button id="mobileMenuBtn" aria-label="Toggle Menu" class="lg:hidden text-2xl text-slate-300 hover:text-brand-gold focus:outline-none p-1.5 rounded-xl border border-white/10 hover:border-brand-gold/40 transition">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+
+    <!-- Mobile Dropdown Menu -->
+    <div id="mobileMenu" class="hidden lg:hidden bg-brand-card/98 backdrop-blur-2xl border-b border-brand-border px-6 py-5 space-y-4 shadow-2xl">
+      <a href="#home" class="block text-slate-200 hover:text-brand-gold font-medium">Home</a>
+      <a href="#booking" class="block text-slate-200 hover:text-brand-gold font-medium">Book a Ride</a>
+      <a href="#crysta-showcase" class="block text-brand-gold font-bold">★ Toyota Innova Crysta Showcase</a>
+      <a href="#services" class="block text-brand-goldLight font-bold">★ Our 9 Signature Services</a>
+      <a href="#packages" class="block text-slate-200 hover:text-brand-gold font-medium">Tour Packages</a>
+      <a href="#destinations" class="block text-emerald-400 font-medium">🌿 Kerala Scenic Destinations</a>
+      <a href="#fleet" class="block text-slate-200 hover:text-brand-gold font-medium">Our Fleet</a>
+      <a href="#routes" class="block text-slate-200 hover:text-brand-gold font-medium">Routes & Distance Guide</a>
+      <a href="#contact" class="block text-slate-200 hover:text-brand-gold font-medium">Contact Us</a>
+      <div class="pt-4 border-t border-brand-border flex flex-col gap-3">
+        <a href="tel:+919605913120" class="w-full text-center bg-neutral-900 hover:bg-neutral-800 text-white font-bold py-2.5 rounded-xl border border-brand-gold/30">
+          <i class="fa-solid fa-phone mr-2 text-brand-gold"></i> Call 9605 913 120
+        </a>
+        <a href="#booking" class="w-full text-center gold-gradient-bg text-black font-extrabold py-2.5 rounded-xl shadow-md">
+          <i class="fa-solid fa-taxi mr-2"></i> Book Online / WhatsApp
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION WITH REAL CRYSTA BACKGROUND & DIRECT BOOKING ENGINE -->
+  <section id="home" class="hero-crysta-bg relative pt-10 pb-16 lg:pt-16 lg:pb-28 overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+
+        <!-- Hero Text & Value Highlights (col 12 -> 7) -->
+        <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+          
+          <!-- Authentic Fleet Badge -->
+          <div class="inline-flex items-center space-x-2 bg-brand-surface/90 border border-brand-gold/40 px-4 py-1.5 rounded-full text-xs sm:text-sm text-brand-goldLight font-bold tracking-wide shadow-md">
+            <span class="text-base">⭐</span>
+            <span>OFFICIAL KERALA TAXI & TOUR SERVICE</span>
+          </div>
+
+          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-[1.15]">
+            Ride <span class="gold-gradient-text">Zero</span> Stress.<br>
+            Worry <span class="gold-gradient-text">Zero</span> Delays.
+          </h1>
+
+          <p class="text-base sm:text-lg text-slate-200 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+            Travel God's Own Country in our executive, spotless <strong class="text-white font-bold">Toyota Innova Crysta</strong>. 
+            Enjoy peaceful airport transfers, picturesque Munnar tea hill tours, Alleppey backwater houseboats, and South India outstation journeys with Kerala's most trusted chauffeur team.
+          </p>
+
+          <!-- Core Feature Badges with Premium Gold Icons -->
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-2">
+            <div class="bg-brand-card/90 border border-brand-border p-3.5 rounded-2xl text-center shadow-lg">
+              <div class="text-brand-gold text-2xl mb-1"><i class="fa-solid fa-clock"></i></div>
+              <div class="text-xs font-extrabold text-white uppercase">24/7 Everyday</div>
+              <div class="text-[10px] text-slate-400">Punctual Dispatches</div>
+            </div>
+            <div class="bg-brand-card/90 border border-brand-border p-3.5 rounded-2xl text-center shadow-lg">
+              <div class="text-brand-gold text-2xl mb-1"><i class="fa-solid fa-car-rear"></i></div>
+              <div class="text-xs font-extrabold text-white uppercase">Innova Crysta</div>
+              <div class="text-[10px] text-slate-400">Clean & Sanitized</div>
+            </div>
+            <div class="bg-brand-card/90 border border-brand-border p-3.5 rounded-2xl text-center shadow-lg">
+              <div class="text-brand-gold text-2xl mb-1"><i class="fa-solid fa-receipt"></i></div>
+              <div class="text-xs font-extrabold text-white uppercase">Zero Hidden Fees</div>
+              <div class="text-[10px] text-slate-400">All-Inclusive Quotes</div>
+            </div>
+            <div class="bg-brand-card/90 border border-brand-border p-3.5 rounded-2xl text-center shadow-lg">
+              <div class="text-brand-gold text-2xl mb-1"><i class="fa-solid fa-user-tie"></i></div>
+              <div class="text-xs font-extrabold text-white uppercase">Elite Chauffeurs</div>
+              <div class="text-[10px] text-slate-400">Kerala Tour Guides</div>
+            </div>
+          </div>
+
+          <!-- Hero Action Buttons -->
+          <div class="pt-3 flex flex-wrap items-center justify-center lg:justify-start gap-4">
+            <a href="tel:+919605913120" class="inline-flex items-center space-x-2.5 gold-gradient-bg text-black font-black px-7 py-4 rounded-xl text-base shadow-xl transition transform hover:-translate-y-0.5 cursor-pointer">
+              <i class="fa-solid fa-phone-volume"></i>
+              <span>Call: 9605 913 120</span>
+            </a>
+            <a href="tel:+919946913120" class="inline-flex items-center space-x-2.5 bg-neutral-900/90 hover:bg-neutral-800 text-white font-bold px-6 py-4 rounded-xl text-base border border-brand-gold/30 hover:border-brand-gold transition shadow-md">
+              <i class="fa-solid fa-phone text-brand-gold"></i>
+              <span>Call: 9946 913 120</span>
+            </a>
+            <a href="#crysta-showcase" class="inline-flex items-center space-x-2 text-sm text-brand-goldLight font-bold hover:underline py-2">
+              <span>View Real Crysta Photos</span>
+              <i class="fa-solid fa-arrow-down text-xs"></i>
+            </a>
+          </div>
+
+        </div>
+
+        <!-- Interactive Booking Form Card (col 12 -> 5) -->
+        <div id="booking" class="lg:col-span-5">
+          <div class="luxury-card-gold rounded-3xl p-6 sm:p-7 relative shadow-2xl">
+            <div class="gold-checkered-strip rounded-t-2xl -mt-6 -mx-6 sm:-mt-7 sm:-mx-7 mb-5"></div>
+
+            <div class="flex items-center justify-between mb-4">
+              <div>
+                <h3 class="text-xl sm:text-2xl font-black text-white flex items-center">
+                  <i class="fa-solid fa-route text-brand-gold mr-2"></i> Book Your Ride
+                </h3>
+                <p class="text-xs text-slate-400">Instant direct dispatch via WhatsApp</p>
+              </div>
+              <span class="bg-brand-gold/20 text-brand-goldLight text-[11px] font-bold px-2.5 py-1 rounded-full border border-brand-gold/40">
+                24/7 Available
+              </span>
+            </div>
+
+            <!-- Tab Buttons for Trip Type -->
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-1.5 p-1 bg-black/50 rounded-xl mb-4 text-xs font-semibold">
+              <button type="button" class="tab-btn active py-2 px-1 rounded-lg text-center transition" data-trip-type="Outstation & One-Way">
+                Outstation
+              </button>
+              <button type="button" class="tab-btn py-2 px-1 rounded-lg text-center text-slate-300 hover:text-white transition" data-trip-type="Airport Transfer">
+                Airport
+              </button>
+              <button type="button" class="tab-btn py-2 px-1 rounded-lg text-center text-slate-300 hover:text-white transition" data-trip-type="Kerala Tour Package">
+                Tour Package
+              </button>
+              <button type="button" class="tab-btn py-2 px-1 rounded-lg text-center text-slate-300 hover:text-white transition" data-trip-type="Railway Pickup">
+                Railway
+              </button>
+            </div>
+
+            <!-- Interactive Form -->
+            <form id="quickBookingForm" class="space-y-3.5 text-sm">
+              <input type="hidden" id="tripType" value="Kerala Tour Packages">
+
+              <!-- Direct 9 Service Selector -->
+              <div>
+                <label class="block text-xs font-bold text-slate-300 mb-1">
+                  <i class="fa-solid fa-list-check text-brand-gold mr-1"></i> Choose Service (From Official Flyer)
+                </label>
+                <div class="relative">
+                  <i class="fa-solid fa-taxi absolute left-3 top-3 text-brand-gold text-xs"></i>
+                  <select id="serviceSelectDropdown" class="custom-input w-full pl-8 pr-3 py-2 rounded-xl text-xs sm:text-sm font-bold text-brand-goldLight">
+                    <option value="Kerala Tour Packages" selected>1. Kerala Tour Packages (Munnar / Alleppey / Thekkady)</option>
+                    <option value="South India Tour Packages">2. South India Tour Packages (Ooty / Kodaikanal / Mysore)</option>
+                    <option value="Airport Transfers">3. Airport Transfers (24/7 COK / TRV / CCJ)</option>
+                    <option value="Railway Station Pickup">4. Railway Station Pickup (Ernakulam / Aluva / Thrissur)</option>
+                    <option value="Hotel Booking Assistance">5. Hotel Booking Assistance (Resorts & Houseboats)</option>
+                    <option value="Tours for All Communities">6. Tours for All Communities (Families & Large Groups)</option>
+                    <option value="One Day & Multi Day Trips">7. One Day & Multi Day Trips (Sightseeing Getaways)</option>
+                    <option value="Corporate Travel">8. Corporate Travel (Executive Chauffeurs & VIP)</option>
+                    <option value="Pilgrimage Tours">9. Pilgrimage Tours (Sabarimala, Guruvayur & South Temples)</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Pickup & Drop Grid -->
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div>
+                  <label id="pickupLabel" class="block text-xs font-bold text-slate-300 mb-1">
+                    Pickup City / Point
+                  </label>
+                  <div class="relative">
+                    <i class="fa-solid fa-location-crosshairs absolute left-3 top-3 text-brand-gold text-xs"></i>
+                    <input type="text" id="pickupInput" required placeholder="e.g. Ernakulam / Kochi, Thrissur" class="custom-input w-full pl-8 pr-3 py-2 rounded-xl text-sm placeholder-slate-500">
+                  </div>
+                </div>
+
+                <div>
+                  <label id="destinationLabel" class="block text-xs font-bold text-slate-300 mb-1">
+                    Drop-off Destination
+                  </label>
+                  <div class="relative">
+                    <i class="fa-solid fa-flag-checkered absolute left-3 top-3 text-brand-gold text-xs"></i>
+                    <input type="text" id="destinationInput" required placeholder="e.g. Munnar, Alleppey, Calicut" class="custom-input w-full pl-8 pr-3 py-2 rounded-xl text-sm placeholder-slate-500">
+                  </div>
+                </div>
+              </div>
+
+              <!-- Date, Time & Passengers -->
+              <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                <div>
+                  <label class="block text-xs font-bold text-slate-300 mb-1">Journey Date</label>
+                  <input type="date" id="pickupDate" required class="custom-input w-full px-3 py-2 rounded-xl text-sm">
+                </div>
+                <div>
+                  <label class="block text-xs font-bold text-slate-300 mb-1">Pickup Time</label>
+                  <input type="time" id="pickupTime" class="custom-input w-full px-3 py-2 rounded-xl text-sm">
+                </div>
+                <div>
+                  <label class="block text-xs font-bold text-slate-300 mb-1">Passengers</label>
+                  <select id="passengerCount" class="custom-input w-full px-3 py-2 rounded-xl text-sm">
+                    <option value="1-3">1 - 3 Persons</option>
+                    <option value="4-6" selected>4 - 6 Persons</option>
+                    <option value="7">7 Persons</option>
+                    <option value="8+ (Group)">8+ Group</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Vehicle Selection -->
+              <div>
+                <label class="block text-xs font-bold text-slate-300 mb-1">Select Vehicle</label>
+                <div class="relative">
+                  <i class="fa-solid fa-car-rear absolute left-3 top-3 text-brand-gold text-xs"></i>
+                  <select id="vehicleSelect" class="custom-input w-full pl-8 pr-3 py-2 rounded-xl text-sm font-semibold">
+                    <option value="Innova Crysta" selected>Toyota Innova Crysta (7/8 Seater Luxury AC)</option>
+                    <option value="Executive Sedan">Executive Sedan (Dzire / Etios AC)</option>
+                    <option value="Family MPV (Ertiga)">Family MPV (Ertiga 6-Seater AC)</option>
+                    <option value="Luxury Tempo Traveller">Luxury Tempo Traveller (12/17/26 Seater)</option>
+                  </select>
+                </div>
+                <div id="vehicleBadge" class="text-[11px] text-brand-gold mt-1 font-semibold">
+                  ★ Flagship White Innova Crysta | Dual AC | Extra Luggage Room
+                </div>
+              </div>
+
+              <!-- Customer Info -->
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div>
+                  <label class="block text-xs font-bold text-slate-300 mb-1">Your Name</label>
+                  <input type="text" id="custName" required placeholder="Full Name" class="custom-input w-full px-3 py-2 rounded-xl text-sm placeholder-slate-500">
+                </div>
+                <div>
+                  <label class="block text-xs font-bold text-slate-300 mb-1">Phone Number</label>
+                  <input type="tel" id="custPhone" placeholder="Mobile Number" class="custom-input w-full px-3 py-2 rounded-xl text-sm placeholder-slate-500">
+                </div>
+              </div>
+
+              <!-- Notes / Special Requests -->
+              <div>
+                <input type="text" id="custNotes" placeholder="Special requirements, luggage count, or preferred route (optional)" class="custom-input w-full px-3 py-2 rounded-xl text-xs placeholder-slate-500">
+              </div>
+
+              <!-- Target WhatsApp Desk Selector -->
+              <div class="flex items-center justify-between text-xs text-slate-300 bg-black/60 p-2.5 rounded-xl border border-brand-border">
+                <span class="text-slate-400">Send WhatsApp To:</span>
+                <select id="whatsappNumberSelect" class="bg-transparent text-brand-gold font-bold text-xs focus:outline-none cursor-pointer">
+                  <option value="919605913120" class="bg-neutral-900 text-white">Line 1: 9605 913 120</option>
+                  <option value="919946913120" class="bg-neutral-900 text-white">Line 2: 9946 913 120</option>
+                </select>
+              </div>
+
+              <!-- Submit Buttons -->
+              <div class="pt-2">
+                <button type="submit" class="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold py-3.5 rounded-xl text-base shadow-xl transition flex items-center justify-center space-x-2 cursor-pointer">
+                  <i class="fa-brands fa-whatsapp text-xl"></i>
+                  <span>Book Instantly via WhatsApp</span>
+                </button>
+              </div>
+
+              <div class="text-center pt-1">
+                <span class="text-[11px] text-slate-400">
+                  <i class="fa-solid fa-shield-check text-brand-gold"></i> Zero advance required for quick quotes. Instant confirmation.
+                </span>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 9 SIGNATURE SERVICES HIGHLIGHT BANNER (DIRECT FROM FLYER) -->
+  <div class="bg-gradient-to-r from-neutral-950 via-brand-surface to-neutral-950 border-y border-brand-gold/30 py-3.5 overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-3">
+      <div class="flex items-center space-x-2 text-brand-gold font-black text-xs sm:text-sm tracking-wider shrink-0">
+        <span class="w-2.5 h-2.5 rounded-full bg-brand-gold inline-block animate-ping mr-1"></span>
+        <span>OUR 9 SERVICES (24 SERVICE EVERYDAY):</span>
+      </div>
+      <div class="flex flex-wrap items-center justify-center md:justify-end gap-2 text-xs font-bold">
+        <button onclick="selectService('Kerala Tour Packages', 'Cochin Airport / Railway', 'Munnar - Thekkady - Alleppey', 'Innova Crysta')" class="bg-brand-card text-emerald-300 border border-emerald-500/40 hover:bg-emerald-500 hover:text-black px-3.5 py-1.5 rounded-full transition flex items-center gap-1.5 shadow-sm">
+          <i class="fa-solid fa-mountain-sun text-emerald-400"></i> Kerala Tour Packages
+        </button>
+        <button onclick="selectService('South India Tour Packages', 'Kochi', 'Ooty / Kodaikanal / Mysore', 'Innova Crysta')" class="bg-brand-card text-orange-300 border border-orange-500/40 hover:bg-orange-500 hover:text-black px-3.5 py-1.5 rounded-full transition flex items-center gap-1.5 shadow-sm">
+          <i class="fa-solid fa-map-location-dot text-orange-400"></i> South India Tours
+        </button>
+        <button onclick="selectService('Airport Transfers', 'Cochin Airport (COK)', 'City / Hotel Destination', 'Executive Sedan')" class="bg-brand-card text-cyan-300 border border-cyan-500/40 hover:bg-cyan-500 hover:text-black px-3.5 py-1.5 rounded-full transition flex items-center gap-1.5 shadow-sm">
+          <i class="fa-solid fa-plane-departure text-cyan-400"></i> Airport Transfers
+        </button>
+        <button onclick="selectService('Railway Station Pickup', 'Ernakulam South / North', 'Hotel / Home Destination', 'Innova Crysta')" class="bg-brand-card text-purple-300 border border-purple-500/40 hover:bg-purple-500 hover:text-white px-3.5 py-1.5 rounded-full transition flex items-center gap-1.5 shadow-sm">
+          <i class="fa-solid fa-train text-purple-400"></i> Railway Pickup
+        </button>
+        <button onclick="selectService('Hotel Booking Assistance', 'Kerala', 'Resort / Homestay / Houseboat', 'Innova Crysta')" class="bg-brand-card text-rose-300 border border-rose-500/40 hover:bg-rose-500 hover:text-white px-3.5 py-1.5 rounded-full transition flex items-center gap-1.5 shadow-sm">
+          <i class="fa-solid fa-hotel text-rose-400"></i> Hotel Assistance
+        </button>
+        <button onclick="selectService('Tours for All Communities', 'Kochi', 'Custom Group Tour', 'Luxury Tempo Traveller')" class="bg-brand-card text-amber-300 border border-amber-500/40 hover:bg-amber-500 hover:text-black px-3.5 py-1.5 rounded-full transition flex items-center gap-1.5 shadow-sm">
+          <i class="fa-solid fa-people-group text-amber-400"></i> All Communities
+        </button>
+        <button onclick="selectService('One Day & Multi Day Trips', 'Kochi', 'Athirappilly / Fort Kochi Sightseeing', 'Innova Crysta')" class="bg-brand-card text-teal-300 border border-teal-500/40 hover:bg-teal-500 hover:text-black px-3.5 py-1.5 rounded-full transition flex items-center gap-1.5 shadow-sm">
+          <i class="fa-solid fa-calendar-day text-teal-400"></i> 1 Day & Multi Day
+        </button>
+        <button onclick="selectService('Corporate Travel', 'Kochi / Infopark', 'Business Destination / Hotel', 'Innova Crysta')" class="bg-brand-card text-blue-300 border border-blue-500/40 hover:bg-blue-500 hover:text-white px-3.5 py-1.5 rounded-full transition flex items-center gap-1.5 shadow-sm">
+          <i class="fa-solid fa-briefcase text-blue-400"></i> Corporate Travel
+        </button>
+        <button onclick="selectService('Pilgrimage Tours', 'Kochi / Kottayam', 'Sabarimala / Guruvayur Temple', 'Innova Crysta')" class="bg-brand-card text-orange-300 border border-orange-600/40 hover:bg-orange-600 hover:text-white px-3.5 py-1.5 rounded-full transition flex items-center gap-1.5 shadow-sm">
+          <i class="fa-solid fa-hands-praying text-orange-400"></i> Pilgrimage Tours
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- REAL INNOVA CRYSTA GALLERY & FLEET HIGHLIGHTS SECTION -->
+  <section id="crysta-showcase" class="py-20 bg-neutral-950/65 backdrop-blur-sm border-t border-brand-border relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-14 space-y-3">
+        <span class="text-brand-gold text-xs font-black uppercase tracking-[0.2em] bg-brand-gold/10 px-4 py-1.5 rounded-full border border-brand-gold/30">
+          Authentic Fleet Gallery
+        </span>
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-black text-white">
+          Our Flagship <span class="gold-gradient-text">Toyota Innova Crysta</span>
+        </h2>
+        <p class="text-slate-300 text-sm sm:text-base">
+          Registration No: <strong class="text-brand-gold font-extrabold">KL 08 BW 0770</strong> • 100% Real photos of our sanitized, spotless luxury vehicle.
+        </p>
+      </div>
+
+      <!-- Real Vehicle Photo Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+        <!-- Photo 1: Front Profile at Villa -->
+        <div class="gallery-card bg-brand-card flex flex-col justify-between">
+          <div class="relative overflow-hidden h-72">
+            <img src="assets/images/crysta-front.jpg" alt="Toyota Innova Crysta KL 08 BW 0770 Front View" class="w-full h-full object-cover">
+            <span class="absolute top-3 left-3 bg-neutral-950/80 backdrop-blur-md text-brand-gold text-[10px] font-extrabold uppercase px-2.5 py-1 rounded-full border border-brand-gold/30">
+              Front Profile
+            </span>
+          </div>
+          <div class="p-5 space-y-2">
+            <h4 class="font-bold text-white text-base">Executive Presence</h4>
+            <p class="text-slate-400 text-xs leading-relaxed">
+              Pristine white Toyota Innova Crysta with chrome grille, LED headlamps, and official tourist permit.
+            </p>
+            <div class="pt-2 text-xs font-semibold text-brand-gold flex items-center">
+              <i class="fa-solid fa-check-circle mr-1.5"></i> Chauffeur Driven Luxury
+            </div>
+          </div>
+        </div>
+
+        <!-- Photo 2: Rear Profile & Luggage -->
+        <div class="gallery-card bg-brand-card flex flex-col justify-between">
+          <div class="relative overflow-hidden h-72">
+            <img src="assets/images/crysta-rear.jpg" alt="Toyota Innova Crysta KL 08 BW 0770 Rear View" class="w-full h-full object-cover">
+            <span class="absolute top-3 left-3 bg-neutral-950/80 backdrop-blur-md text-brand-gold text-[10px] font-extrabold uppercase px-2.5 py-1 rounded-full border border-brand-gold/30">
+              Rear & Luggage Room
+            </span>
+          </div>
+          <div class="p-5 space-y-2">
+            <h4 class="font-bold text-white text-base">Spacious Trunk</h4>
+            <p class="text-slate-400 text-xs leading-relaxed">
+              Expansive rear boot space easily fitting 4 to 6 large suitcases, stroller, and travel bags.
+            </p>
+            <div class="pt-2 text-xs font-semibold text-brand-gold flex items-center">
+              <i class="fa-solid fa-check-circle mr-1.5"></i> Family Vacation Ready
+            </div>
+          </div>
+        </div>
+
+        <!-- Photo 3: Side Profile in Resort Grounds -->
+        <div class="gallery-card bg-brand-card flex flex-col justify-between">
+          <div class="relative overflow-hidden h-72">
+            <img src="assets/images/crysta-side.jpg" alt="Toyota Innova Crysta KL 08 BW 0770 Resort Side View" class="w-full h-full object-cover">
+            <span class="absolute top-3 left-3 bg-neutral-950/80 backdrop-blur-md text-brand-gold text-[10px] font-extrabold uppercase px-2.5 py-1 rounded-full border border-brand-gold/30">
+              Comfort & Suspension
+            </span>
+          </div>
+          <div class="p-5 space-y-2">
+            <h4 class="font-bold text-white text-base">Smooth Mountain Drive</h4>
+            <p class="text-slate-400 text-xs leading-relaxed">
+              High ground clearance and refined suspension engineered for smooth Ghat road curves in Munnar and Wayanad.
+            </p>
+            <div class="pt-2 text-xs font-semibold text-brand-gold flex items-center">
+              <i class="fa-solid fa-check-circle mr-1.5"></i> Dual Row Climate AC
+            </div>
+          </div>
+        </div>
+
+        <!-- Photo 4: Outdoor Floral Setting -->
+        <div class="gallery-card bg-brand-card flex flex-col justify-between">
+          <div class="relative overflow-hidden h-72">
+            <img src="assets/images/crysta-outdoor.jpg" alt="Toyota Innova Crysta KL 08 BW 0770 Outdoor" class="w-full h-full object-cover">
+            <span class="absolute top-3 left-3 bg-neutral-950/80 backdrop-blur-md text-brand-gold text-[10px] font-extrabold uppercase px-2.5 py-1 rounded-full border border-brand-gold/30">
+              Sightseeing & Events
+            </span>
+          </div>
+          <div class="p-5 space-y-2">
+            <h4 class="font-bold text-white text-base">Event & Bridal Service</h4>
+            <p class="text-slate-400 text-xs leading-relaxed">
+              Available for high-end wedding party transport, VIP hotel transfers, and Kerala sightseeing trips.
+            </p>
+            <div class="pt-2 text-xs font-semibold text-brand-gold flex items-center">
+              <i class="fa-solid fa-check-circle mr-1.5"></i> Spotless Cleanliness
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Book this exact car banner -->
+      <div class="mt-12 bg-gradient-to-r from-neutral-900 via-brand-card to-neutral-900 border border-brand-gold/30 rounded-2xl p-6 sm:p-8 flex flex-col md:flex-row items-center justify-between gap-6 shadow-xl">
+        <div class="flex items-center space-x-4">
+          <div class="w-14 h-14 rounded-2xl bg-brand-gold/10 border border-brand-gold/30 flex items-center justify-center text-brand-gold text-2xl">
+            <i class="fa-solid fa-key"></i>
+          </div>
+          <div>
+            <h3 class="text-lg sm:text-xl font-black text-white">Want this exact Toyota Innova Crysta for your trip?</h3>
+            <p class="text-xs sm:text-sm text-slate-300">Book in advance to reserve vehicle registration <span class="text-brand-gold font-bold">KL 08 BW 0770</span> with professional driver.</p>
+          </div>
+        </div>
+        <div class="flex flex-wrap gap-3">
+          <button onclick="selectPackage('Innova Crysta KL 08 BW 0770 Booking', 'Innova Crysta')" class="gold-gradient-bg text-black font-extrabold px-6 py-3 rounded-xl text-sm transition shadow-lg">
+            Reserve This Crysta
+          </button>
+          <a href="https://wa.me/919605913120?text=Hello%20Zero%20Taxi,%20I%20want%20to%20book%20the%20Innova%20Crysta%20KL08BW0770" target="_blank" class="bg-neutral-800 hover:bg-neutral-700 text-white font-bold px-5 py-3 rounded-xl text-sm border border-brand-gold/30 transition flex items-center space-x-2">
+            <i class="fa-brands fa-whatsapp text-emerald-400"></i>
+            <span>WhatsApp Dispatch</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- OFFICIAL FLYER & BRAND BANNER SECTION WITH PERSISTENT ALAPPUZHA BACKDROP -->
+  <section class="py-20 bg-neutral-950/50 backdrop-blur-sm border-t border-brand-border relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="bg-gradient-to-r from-neutral-950/85 via-brand-card/80 to-neutral-950/85 backdrop-blur-md rounded-3xl border border-brand-gold/30 overflow-hidden shadow-2xl">
+        <div class="grid grid-cols-1 lg:grid-cols-12 items-center">
+          
+          <!-- Image of the Flyer / Poster -->
+          <div class="lg:col-span-6 p-4 sm:p-6 flex justify-center">
+            <div class="relative group max-w-lg overflow-hidden rounded-2xl border border-white/10 shadow-2xl">
+              <img src="assets/images/banner.jpg" alt="Zero Taxi Official Banner - Explore Kerala" class="w-full h-auto object-cover transform group-hover:scale-102 transition duration-500">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end p-6">
+                <p class="text-brand-gold font-bold text-sm">Official Kerala Tour & 24/7 Taxi Service</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Highlight text from flyer -->
+          <div class="lg:col-span-6 p-6 sm:p-10 space-y-5">
+            <div class="inline-flex items-center space-x-2 text-brand-gold text-xs font-bold uppercase tracking-wider bg-brand-gold/10 border border-brand-gold/30 px-3 py-1 rounded-full">
+              <i class="fa-solid fa-certificate"></i> Verified Zero Taxi Service
+            </div>
+
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-white">
+              Explore Kerala with True Comfort & Peace of Mind
+            </h2>
+
+            <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+              From the tranquil backwaters of Alleppey and misty hill slopes of Munnar to cultural Kathakali spectacles and traditional snake boat races, Zero Taxi delivers punctual, transparent, and hassle-free taxi journeys throughout Kerala and South India.
+            </p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
+              <div class="flex items-center space-x-2 text-sm text-slate-200">
+                <i class="fa-solid fa-circle-check text-brand-gold"></i>
+                <span class="font-semibold">Kerala Tour Packages</span>
+              </div>
+              <div class="flex items-center space-x-2 text-sm text-slate-200">
+                <i class="fa-solid fa-circle-check text-brand-gold"></i>
+                <span class="font-semibold">South India Tour Packages</span>
+              </div>
+              <div class="flex items-center space-x-2 text-sm text-slate-200">
+                <i class="fa-solid fa-circle-check text-brand-gold"></i>
+                <span class="font-semibold">Airport Transfers (24/7)</span>
+              </div>
+              <div class="flex items-center space-x-2 text-sm text-slate-200">
+                <i class="fa-solid fa-circle-check text-brand-gold"></i>
+                <span class="font-semibold">Railway Station Pickup</span>
+              </div>
+              <div class="flex items-center space-x-2 text-sm text-slate-200">
+                <i class="fa-solid fa-circle-check text-brand-gold"></i>
+                <span class="font-semibold">Hotel Booking Assistance</span>
+              </div>
+              <div class="flex items-center space-x-2 text-sm text-slate-200">
+                <i class="fa-solid fa-circle-check text-brand-gold"></i>
+                <span class="font-semibold">Tours for All Communities</span>
+              </div>
+              <div class="flex items-center space-x-2 text-sm text-slate-200">
+                <i class="fa-solid fa-circle-check text-brand-gold"></i>
+                <span class="font-semibold">One Day & Multi Day Trips</span>
+              </div>
+              <div class="flex items-center space-x-2 text-sm text-slate-200">
+                <i class="fa-solid fa-circle-check text-brand-gold"></i>
+                <span class="font-semibold">Corporate Travel</span>
+              </div>
+              <div class="flex items-center space-x-2 text-sm text-slate-200 sm:col-span-2">
+                <i class="fa-solid fa-circle-check text-brand-gold"></i>
+                <span class="font-semibold">Pilgrimage Tours (Sabarimala, Guruvayur & South Temples)</span>
+              </div>
+            </div>
+
+            <div class="pt-4 flex flex-wrap gap-4 items-center">
+              <a href="tel:+919605913120" class="gold-gradient-bg text-black font-black px-6 py-3 rounded-xl text-sm transition flex items-center space-x-2 shadow-lg">
+                <i class="fa-solid fa-phone"></i>
+                <span>Direct Line: 9605 913 120</span>
+              </a>
+              <a href="https://wa.me/919946913120?text=Hi%20Zero%20Taxi,%20please%20send%20me%20details%20for%20Kerala%20tours" target="_blank" class="bg-neutral-800 hover:bg-neutral-700 text-white font-bold px-5 py-3 rounded-xl text-sm border border-brand-gold/30 transition flex items-center space-x-2">
+                <i class="fa-brands fa-whatsapp text-emerald-400"></i>
+                <span>WhatsApp: 9946 913 120</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ALL 9 SERVICES SECTION - VIBRANT CIRCULAR DESIGN & GLOWING BORDERS -->
+  <section id="services" class="py-24 bg-neutral-950/45 backdrop-blur-sm border-t border-brand-border relative overflow-hidden">
+    <!-- Ambient colorful background glows -->
+    <div class="absolute top-1/3 left-10 w-96 h-96 bg-emerald-500/10 rounded-full blur-[140px] pointer-events-none"></div>
+    <div class="absolute top-2/3 right-10 w-96 h-96 bg-rose-500/10 rounded-full blur-[140px] pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      
+      <!-- Section Heading -->
+      <div class="text-center max-w-3xl mx-auto mb-14 space-y-3">
+        <span class="inline-flex items-center space-x-2 text-brand-gold text-xs font-black uppercase tracking-[0.2em] bg-brand-gold/10 px-4 py-1.5 rounded-full border border-brand-gold/30 shadow-md">
+          <span class="w-2 h-2 rounded-full bg-brand-gold animate-ping"></span>
+          <span>Official Flyer Services • 24 Service Everyday</span>
+        </span>
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-black text-white">
+          Our 9 Signature <span class="gold-gradient-text">Taxi & Tour Services</span>
+        </h2>
+        <p class="text-slate-300 text-sm sm:text-base">
+          Styled with vibrant circular designs inspired by our official Kerala flyer. Click any circular pod or card to book instantly with zero hassle!
+        </p>
+      </div>
+
+      <!-- CIRCULAR INTERACTIVE EXPLORE KERALA POD WHEEL (INSPIRED BY FLYER COLLAGE) -->
+      <div class="mb-16 p-6 sm:p-10 rounded-3xl bg-neutral-950/80 border-2 border-brand-gold/30 shadow-2xl relative">
+        <div class="text-center mb-8">
+          <div class="inline-flex items-center space-x-3 bg-black/60 border border-white/10 px-5 py-2 rounded-full">
+            <span class="text-red-500 font-extrabold text-xs flex items-center gap-1.5">
+              <span class="w-2 h-2 rounded-full bg-red-500 animate-pulse"></span>
+              24 SERVICE EVERYDAY
+            </span>
+            <span class="text-slate-500">|</span>
+            <span class="text-brand-goldLight text-xs font-bold uppercase tracking-wider">Explore Kerala Wheel</span>
+          </div>
+        </div>
+
+        <!-- 9 Circular Pods Array -->
+        <div class="grid grid-cols-3 sm:grid-cols-5 lg:grid-cols-9 gap-4 sm:gap-6 justify-items-center">
+          
+          <!-- Circle 1: Kerala Tours -->
+          <button onclick="selectService('Kerala Tour Packages', 'Cochin Airport / Railway', 'Munnar - Thekkady - Alleppey', 'Innova Crysta')" class="group flex flex-col items-center text-center focus:outline-none cursor-pointer">
+            <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-gradient-to-br from-emerald-400 to-teal-600 p-0.5 shadow-lg shadow-emerald-500/30 group-hover:scale-110 group-hover:shadow-emerald-500/60 transition duration-300">
+              <div class="w-full h-full rounded-full bg-brand-deep flex items-center justify-center text-emerald-400 group-hover:bg-emerald-500 group-hover:text-black transition">
+                <i class="fa-solid fa-mountain-sun text-xl sm:text-2xl"></i>
+              </div>
+            </div>
+            <span class="text-[11px] sm:text-xs font-bold text-slate-200 mt-2.5 group-hover:text-emerald-400 transition leading-tight">Kerala<br>Tours</span>
+          </button>
+
+          <!-- Circle 2: South India -->
+          <button onclick="selectService('South India Tour Packages', 'Kochi', 'Ooty / Mysore / Coorg', 'Innova Crysta')" class="group flex flex-col items-center text-center focus:outline-none cursor-pointer">
+            <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-gradient-to-br from-orange-400 to-amber-600 p-0.5 shadow-lg shadow-orange-500/30 group-hover:scale-110 group-hover:shadow-orange-500/60 transition duration-300">
+              <div class="w-full h-full rounded-full bg-brand-deep flex items-center justify-center text-orange-400 group-hover:bg-orange-500 group-hover:text-black transition">
+                <i class="fa-solid fa-map-location-dot text-xl sm:text-2xl"></i>
+              </div>
+            </div>
+            <span class="text-[11px] sm:text-xs font-bold text-slate-200 mt-2.5 group-hover:text-orange-400 transition leading-tight">South India<br>Tours</span>
+          </button>
+
+          <!-- Circle 3: Airport Transfers -->
+          <button onclick="selectService('Airport Transfers', 'Cochin Airport (COK)', 'City Hotel / Home', 'Innova Crysta')" class="group flex flex-col items-center text-center focus:outline-none cursor-pointer">
+            <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-gradient-to-br from-cyan-400 to-blue-600 p-0.5 shadow-lg shadow-cyan-500/30 group-hover:scale-110 group-hover:shadow-cyan-500/60 transition duration-300">
+              <div class="w-full h-full rounded-full bg-brand-deep flex items-center justify-center text-cyan-400 group-hover:bg-cyan-500 group-hover:text-black transition">
+                <i class="fa-solid fa-plane-departure text-xl sm:text-2xl"></i>
+              </div>
+            </div>
+            <span class="text-[11px] sm:text-xs font-bold text-slate-200 mt-2.5 group-hover:text-cyan-400 transition leading-tight">Airport<br>Transfers</span>
+          </button>
+
+          <!-- Circle 4: Railway Pickup -->
+          <button onclick="selectService('Railway Station Pickup', 'Ernakulam Junction (South)', 'City / Hotel Destination', 'Innova Crysta')" class="group flex flex-col items-center text-center focus:outline-none cursor-pointer">
+            <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-gradient-to-br from-purple-400 to-indigo-600 p-0.5 shadow-lg shadow-purple-500/30 group-hover:scale-110 group-hover:shadow-purple-500/60 transition duration-300">
+              <div class="w-full h-full rounded-full bg-brand-deep flex items-center justify-center text-purple-400 group-hover:bg-purple-500 group-hover:text-white transition">
+                <i class="fa-solid fa-train text-xl sm:text-2xl"></i>
+              </div>
+            </div>
+            <span class="text-[11px] sm:text-xs font-bold text-slate-200 mt-2.5 group-hover:text-purple-400 transition leading-tight">Railway<br>Pickup</span>
+          </button>
+
+          <!-- Circle 5: Hotel Assistance -->
+          <button onclick="selectService('Hotel Booking Assistance', 'Kerala', 'Resort / Houseboat Booking', 'Innova Crysta')" class="group flex flex-col items-center text-center focus:outline-none cursor-pointer">
+            <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-gradient-to-br from-rose-400 to-pink-600 p-0.5 shadow-lg shadow-rose-500/30 group-hover:scale-110 group-hover:shadow-rose-500/60 transition duration-300">
+              <div class="w-full h-full rounded-full bg-brand-deep flex items-center justify-center text-rose-400 group-hover:bg-rose-500 group-hover:text-white transition">
+                <i class="fa-solid fa-hotel text-xl sm:text-2xl"></i>
+              </div>
+            </div>
+            <span class="text-[11px] sm:text-xs font-bold text-slate-200 mt-2.5 group-hover:text-rose-400 transition leading-tight">Hotel<br>Booking</span>
+          </button>
+
+          <!-- Circle 6: All Communities -->
+          <button onclick="selectService('Tours for All Communities', 'Kochi', 'Group Package', 'Luxury Tempo Traveller')" class="group flex flex-col items-center text-center focus:outline-none cursor-pointer">
+            <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-gradient-to-br from-amber-400 to-yellow-600 p-0.5 shadow-lg shadow-amber-500/30 group-hover:scale-110 group-hover:shadow-amber-500/60 transition duration-300">
+              <div class="w-full h-full rounded-full bg-brand-deep flex items-center justify-center text-amber-400 group-hover:bg-amber-500 group-hover:text-black transition">
+                <i class="fa-solid fa-people-group text-xl sm:text-2xl"></i>
+              </div>
+            </div>
+            <span class="text-[11px] sm:text-xs font-bold text-slate-200 mt-2.5 group-hover:text-amber-400 transition leading-tight">All<br>Communities</span>
+          </button>
+
+          <!-- Circle 7: 1 Day & Multi Day -->
+          <button onclick="selectService('One Day & Multi Day Trips', 'Kochi Hotel', 'Athirappilly & Fort Kochi', 'Innova Crysta')" class="group flex flex-col items-center text-center focus:outline-none cursor-pointer">
+            <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-gradient-to-br from-teal-400 to-emerald-600 p-0.5 shadow-lg shadow-teal-500/30 group-hover:scale-110 group-hover:shadow-teal-500/60 transition duration-300">
+              <div class="w-full h-full rounded-full bg-brand-deep flex items-center justify-center text-teal-400 group-hover:bg-teal-500 group-hover:text-black transition">
+                <i class="fa-solid fa-calendar-day text-xl sm:text-2xl"></i>
+              </div>
+            </div>
+            <span class="text-[11px] sm:text-xs font-bold text-slate-200 mt-2.5 group-hover:text-teal-400 transition leading-tight">1 & Multi<br>Day Trips</span>
+          </button>
+
+          <!-- Circle 8: Corporate Travel -->
+          <button onclick="selectService('Corporate Travel', 'Kochi / Infopark', 'Business Convention / Hotel', 'Innova Crysta')" class="group flex flex-col items-center text-center focus:outline-none cursor-pointer">
+            <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-gradient-to-br from-blue-500 to-indigo-700 p-0.5 shadow-lg shadow-blue-500/30 group-hover:scale-110 group-hover:shadow-blue-500/60 transition duration-300">
+              <div class="w-full h-full rounded-full bg-brand-deep flex items-center justify-center text-blue-400 group-hover:bg-blue-500 group-hover:text-white transition">
+                <i class="fa-solid fa-briefcase text-xl sm:text-2xl"></i>
+              </div>
+            </div>
+            <span class="text-[11px] sm:text-xs font-bold text-slate-200 mt-2.5 group-hover:text-blue-400 transition leading-tight">Corporate<br>Travel</span>
+          </button>
+
+          <!-- Circle 9: Pilgrimage Tours -->
+          <button onclick="selectService('Pilgrimage Tours', 'Kochi / Kottayam', 'Sabarimala / Guruvayur Temple', 'Innova Crysta')" class="group flex flex-col items-center text-center focus:outline-none cursor-pointer">
+            <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-gradient-to-br from-orange-500 to-rose-600 p-0.5 shadow-lg shadow-orange-500/30 group-hover:scale-110 group-hover:shadow-orange-500/60 transition duration-300">
+              <div class="w-full h-full rounded-full bg-brand-deep flex items-center justify-center text-orange-400 group-hover:bg-orange-500 group-hover:text-white transition">
+                <i class="fa-solid fa-hands-praying text-xl sm:text-2xl"></i>
+              </div>
+            </div>
+            <span class="text-[11px] sm:text-xs font-bold text-slate-200 mt-2.5 group-hover:text-orange-400 transition leading-tight">Pilgrimage<br>Tours</span>
+          </button>
+
+        </div>
+      </div>
+
+      <!-- 9 COLORFUL SERVICE CARDS WITH CIRCULAR BADGES & GLOWING BORDERS -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <!-- 01: Kerala Tour Packages (Emerald Glow) -->
+        <div class="color-card-emerald rounded-3xl p-7 flex flex-col justify-between shadow-2xl relative overflow-hidden">
+          <span class="absolute top-0 right-0 bg-emerald-500 text-black text-[10px] font-black uppercase px-3.5 py-1 rounded-bl-2xl tracking-wider">
+            ★ Most Popular
+          </span>
+          <div>
+            <div class="flex items-center justify-between mb-5">
+              <!-- Circular Badge with Emerald Neon Glow -->
+              <div class="w-16 h-16 rounded-full bg-emerald-500/20 border-2 border-emerald-400 flex items-center justify-center text-emerald-400 text-2xl shadow-lg shadow-emerald-500/20">
+                <i class="fa-solid fa-mountain-sun"></i>
+              </div>
+              <span class="text-3xl font-black text-emerald-400/40">#01</span>
+            </div>
+            <h3 class="text-2xl font-black text-white mb-1">Kerala Tour Packages</h3>
+            <span class="inline-block bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 text-[11px] font-bold px-2.5 py-0.5 rounded-full mb-3">
+              Munnar • Alleppey • Thekkady • Wayanad
+            </span>
+            <p class="text-slate-300 text-xs sm:text-sm leading-relaxed mb-4">
+              Custom multi-day circuits covering misty tea estates, serene backwater houseboats, spice plantations, and beaches with polite local tour drivers.
+            </p>
+            <div class="space-y-2 text-xs text-slate-300 mb-6 border-t border-emerald-500/20 pt-3.5">
+              <div class="flex items-center"><i class="fa-solid fa-circle-check text-emerald-400 mr-2"></i> Free scenic stops at waterfalls & viewpoints</div>
+              <div class="flex items-center"><i class="fa-solid fa-circle-check text-emerald-400 mr-2"></i> Custom 2 to 7-Day itineraries</div>
+              <div class="flex items-center"><i class="fa-solid fa-circle-check text-emerald-400 mr-2"></i> Premium Toyota Innova Crysta AC</div>
+            </div>
+          </div>
+          <button onclick="selectService('Kerala Tour Packages', 'Cochin Airport / Railway', 'Munnar - Thekkady - Alleppey', 'Innova Crysta')" class="w-full bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-400 hover:to-teal-500 text-black font-black py-3.5 rounded-xl text-xs transition shadow-lg shadow-emerald-500/25 flex items-center justify-center space-x-2 cursor-pointer">
+            <span>Book Kerala Tour Package</span>
+            <i class="fa-solid fa-arrow-right text-[10px]"></i>
+          </button>
+        </div>
+
+        <!-- 02: South India Tour Packages (Sunset Orange Glow) -->
+        <div class="color-card-orange rounded-3xl p-7 flex flex-col justify-between shadow-2xl relative overflow-hidden">
+          <span class="absolute top-0 right-0 bg-orange-500 text-black text-[10px] font-black uppercase px-3.5 py-1 rounded-bl-2xl tracking-wider">
+            ★ Interstate
+          </span>
+          <div>
+            <div class="flex items-center justify-between mb-5">
+              <!-- Circular Badge with Orange Neon Glow -->
+              <div class="w-16 h-16 rounded-full bg-orange-500/20 border-2 border-orange-400 flex items-center justify-center text-orange-400 text-2xl shadow-lg shadow-orange-500/20">
+                <i class="fa-solid fa-map-location-dot"></i>
+              </div>
+              <span class="text-3xl font-black text-orange-400/40">#02</span>
+            </div>
+            <h3 class="text-2xl font-black text-white mb-1">South India Tour Packages</h3>
+            <span class="inline-block bg-orange-500/15 text-orange-300 border border-orange-500/30 text-[11px] font-bold px-2.5 py-0.5 rounded-full mb-3">
+              Tamil Nadu • Karnataka • South India
+            </span>
+            <p class="text-slate-300 text-xs sm:text-sm leading-relaxed mb-4">
+              Interstate journeys across Southern India. Experience Ooty, Kodaikanal, Coorg, Mysore, Bangalore, and Kanyakumari with complete interstate permit assistance.
+            </p>
+            <div class="space-y-2 text-xs text-slate-300 mb-6 border-t border-orange-500/20 pt-3.5">
+              <div class="flex items-center"><i class="fa-solid fa-circle-check text-orange-400 mr-2"></i> Interstate permits & border taxes included</div>
+              <div class="flex items-center"><i class="fa-solid fa-circle-check text-orange-400 mr-2"></i> Powerful hill climbing AC vehicles</div>
+              <div class="flex items-center"><i class="fa-solid fa-circle-check text-orange-400 mr-2"></i> Smooth long-distance highway travel</div>
+            </div>
+          </div>
+          <button onclick="selectService('South India Tour Packages', 'Kochi / Coimbatore', 'Ooty - Mysore - Coorg', 'Innova Crysta')" class="w-full bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-400 hover:to-amber-400 text-black font-black py-3.5 rounded-xl text-xs transition shadow-lg shadow-orange-500/25 flex items-center justify-center space-x-2 cursor-pointer">
+            <span>Book South India Tour</span>
+            <i class="fa-solid fa-arrow-right text-[10px]"></i>
+          </button>
+        </div>
+
+        <!-- 03: Airport Transfers (Electric Cyan Glow) -->
+        <div class="color-card-cyan rounded-3xl p-7 flex flex-col justify-between shadow-2xl relative overflow-hidden">
+          <span class="absolute top-0 right-0 bg-cyan-500 text-black text-[10px] font-black uppercase px-3.5 py-1 rounded-bl-2xl tracking-wider">
+            ★ 24/7 Guaranteed
+          </span>
+          <div>
+            <div class="flex items-center justify-between mb-5">
+              <!-- Circular Badge with Cyan Neon Glow -->
+              <div class="w-16 h-16 rounded-full bg-cyan-500/20 border-2 border-cyan-400 flex items-center justify-center text-cyan-400 text-2xl shadow-lg shadow-cyan-500/20">
+                <i class="fa-solid fa-plane-departure"></i>
+              </div>
+              <span class="text-3xl font-black text-cyan-400/40">#03</span>
+            </div>
+            <h3 class="text-2xl font-black text-white mb-1">Airport Transfers</h3>
+            <span class="inline-block bg-cyan-500/15 text-cyan-300 border border-cyan-500/30 text-[11px] font-bold px-2.5 py-0.5 rounded-full mb-3">
+              Cochin COK • Trivandrum TRV • Calicut CCJ
+            </span>
+            <p class="text-slate-300 text-xs sm:text-sm leading-relaxed mb-4">
+              Round-the-clock airport pickups and drops. We track your flight in real-time so your driver is already at the terminal with your name board when you land.
+            </p>
+            <div class="space-y-2 text-xs text-slate-300 mb-6 border-t border-cyan-500/20 pt-3.5">
+              <div class="flex items-center"><i class="fa-solid fa-circle-check text-cyan-400 mr-2"></i> 24 Hours day & late-night dispatch</div>
+              <div class="flex items-center"><i class="fa-solid fa-circle-check text-cyan-400 mr-2"></i> Free flight delay tracking</div>
+              <div class="flex items-center"><i class="fa-solid fa-circle-check text-cyan-400 mr-2"></i> Spacious trunk for 5+ overseas bags</div>
+            </div>
+          </div>
+          <button onclick="selectService('Airport Transfers', 'Cochin Airport (COK)', 'City Hotel / Home', 'Innova Crysta')" class="w-full bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-black font-black py-3.5 rounded-xl text-xs transition shadow-lg shadow-cyan-500/25 flex items-center justify-center space-x-2 cursor-pointer">
+            <span>Book Airport Transfer</span>
+            <i class="fa-solid fa-arrow-right text-[10px]"></i>
+          </button>
+        </div>
+
+        <!-- 04: Railway Station Pickup (Purple Glow) -->
+        <div class="color-card-purple rounded-3xl p-7 flex flex-col justify-between shadow-2xl relative overflow-hidden">
+          <div>
+            <div class="flex items-center justify-between mb-5">
+              <!-- Circular Badge with Purple Neon Glow -->
+              <div class="w-16 h-16 rounded-full bg-purple-500/20 border-2 border-purple-400 flex items-center justify-center text-purple-400 text-2xl shadow-lg shadow-purple-500/20">
+                <i class="fa-solid fa-train"></i>
+              </div>
+              <span class="text-3xl font-black text-purple-400/40">#04</span>
+            </div>
+            <h3 class="text-2xl font-black text-white mb-1">Railway Station Pickup</h3>
+            <span class="inline-block bg-purple-500/15 text-purple-300 border border-purple-500/30 text-[11px] font-bold px-2.5 py-0.5 rounded-full mb-3">
+              Ernakulam South/North • Aluva • Thrissur
+            </span>
+            <p class="text-slate-300 text-xs sm:text-sm leading-relaxed mb-4">
+              Skip platform auto lines and surge pricing. Your chauffeur waits 15 minutes before train arrival outside your platform exit to assist with luggage.
+            </p>
+            <div class="space-y-2 text-xs text-slate-300 mb-6 border-t border-purple-500/20 pt-3.5">
+              <div class="flex items-center"><i class="fa-solid fa-circle-check text-purple-400 mr-2"></i> Punctual arrival at platform exit</div>
+              <div class="flex items-center"><i class="fa-solid fa-circle-check text-purple-400 mr-2"></i> Heavy luggage loading assistance</div>
+              <div class="flex items-center"><i class="fa-solid fa-circle-check text-purple-400 mr-2"></i> Upfront transparent pricing</div>
+            </div>
+          </div>
+          <button onclick="selectService('Railway Station Pickup', 'Ernakulam Junction (South)', 'City / Hotel Destination', 'Innova Crysta')" class="w-full bg-gradient-to-r from-purple-500 to-indigo-600 hover:from-purple-400 hover:to-indigo-500 text-white font-black py-3.5 rounded-xl text-xs transition shadow-lg shadow-purple-500/25 flex items-center justify-center space-x-2 cursor-pointer">
+            <span>Book Railway Pickup</span>
+            <i class="fa-solid fa-arrow-right text-[10px]"></i>
+          </button>
+        </div>
+
+        <!-- 05: Hotel Booking Assistance (Rose Pink Glow) -->
+        <div class="color-card-rose rounded-3xl p-7 flex flex-col justify-between shadow-2xl relative overflow-hidden">
+          <div>
+            <div class="flex items-center justify-between mb-5">
+              <!-- Circular Badge with Rose Neon Glow -->
+              <div class="w-16 h-16 rounded-full bg-rose-500/20 border-2 border-rose-400 flex items-center justify-center text-rose-400 text-2xl shadow-lg shadow-rose-500/20">
+                <i class="fa-solid fa-hotel"></i>
+              </div>
+              <span class="text-3xl font-black text-rose-400/40">#05</span>
+            </div>
+            <h3 class="text-2xl font-black text-white mb-1">Hotel Booking Assistance</h3>
+            <span class="inline-block bg-rose-500/15 text-rose-300 border border-rose-500/30 text-[11px] font-bold px-2.5 py-0.5 rounded-full mb-3">
+              Tea Resorts • Homestays • Houseboats
+            </span>
+            <p class="text-slate-300 text-xs sm:text-sm leading-relaxed mb-4">
+              Need reliable stays? We connect our travelers with verified, top-rated tea plantation resorts, heritage homestays, and private Alleppey houseboats.
+            </p>
+            <div class="space-y-2 text-xs text-slate-300 mb-6 border-t border-rose-500/20 pt-3.5">
+              <div class="flex items-center"><i class="fa-solid fa-circle-check text-rose-400 mr-2"></i> Verified resort & stay recommendations</div>
+              <div class="flex items-center"><i class="fa-solid fa-circle-check text-rose-400 mr-2"></i> Private deluxe & premium houseboats</div>
+              <div class="flex items-center"><i class="fa-solid fa-circle-check text-rose-400 mr-2"></i> Best seasonal rates & local hospitality</div>
+            </div>
+          </div>
+          <button onclick="selectService('Hotel Booking Assistance', 'Kerala', 'Resort / Houseboat Booking', 'Innova Crysta')" class="w-full bg-gradient-to-r from-rose-500 to-pink-600 hover:from-rose-400 hover:to-pink-500 text-white font-black py-3.5 rounded-xl text-xs transition shadow-lg shadow-rose-500/25 flex items-center justify-center space-x-2 cursor-pointer">
+            <span>Inquire Hotel Assistance</span>
+            <i class="fa-solid fa-arrow-right text-[10px]"></i>
+          </button>
+        </div>
+
+        <!-- 06: Tours for All Communities (Amber Gold Glow) -->
+        <div class="color-card-amber rounded-3xl p-7 flex flex-col justify-between shadow-2xl relative overflow-hidden">
+          <div>
+            <div class="flex items-center justify-between mb-5">
+              <!-- Circular Badge with Amber Neon Glow -->
+              <div class="w-16 h-16 rounded-full bg-amber-500/20 border-2 border-amber-400 flex items-center justify-center text-amber-400 text-2xl shadow-lg shadow-amber-500/20">
+                <i class="fa-solid fa-people-group"></i>
+              </div>
+              <span class="text-3xl font-black text-amber-400/40">#06</span>
+            </div>
+            <h3 class="text-2xl font-black text-white mb-1">Tours for All Communities</h3>
+            <span class="inline-block bg-amber-500/15 text-amber-300 border border-amber-500/30 text-[11px] font-bold px-2.5 py-0.5 rounded-full mb-3">
+              Family Reunions • Senior Groups • NRI
+            </span>
+            <p class="text-slate-300 text-xs sm:text-sm leading-relaxed mb-4">
+              Culturally attuned travel with specialized care for senior citizens, young children, large family groups, community clubs, and NRI visitors.
+            </p>
+            <div class="space-y-2 text-xs text-slate-300 mb-6 border-t border-amber-500/20 pt-3.5">
+              <div class="flex items-center"><i class="fa-solid fa-circle-check text-amber-400 mr-2"></i> Extra patience & care for senior citizens</div>
+              <div class="flex items-center"><i class="fa-solid fa-circle-check text-amber-400 mr-2"></i> Spacious Innova Crysta & Tempo Travellers</div>
+              <div class="flex items-center"><i class="fa-solid fa-circle-check text-amber-400 mr-2"></i> Custom dietary & prayer stops</div>
+            </div>
+          </div>
+          <button onclick="selectService('Tours for All Communities', 'Kochi', 'Group Package', 'Luxury Tempo Traveller')" class="w-full bg-gradient-to-r from-amber-500 to-yellow-500 hover:from-amber-400 hover:to-yellow-400 text-black font-black py-3.5 rounded-xl text-xs transition shadow-lg shadow-amber-500/25 flex items-center justify-center space-x-2 cursor-pointer">
+            <span>Plan Community Tour</span>
+            <i class="fa-solid fa-arrow-right text-[10px]"></i>
+          </button>
+        </div>
+
+        <!-- 07: One Day & Multi Day Trips (Bright Teal Glow) -->
+        <div class="color-card-teal rounded-3xl p-7 flex flex-col justify-between shadow-2xl relative overflow-hidden">
+          <div>
+            <div class="flex items-center justify-between mb-5">
+              <!-- Circular Badge with Teal Neon Glow -->
+              <div class="w-16 h-16 rounded-full bg-teal-500/20 border-2 border-teal-400 flex items-center justify-center text-teal-400 text-2xl shadow-lg shadow-teal-500/20">
+                <i class="fa-solid fa-calendar-day"></i>
+              </div>
+              <span class="text-3xl font-black text-teal-400/40">#07</span>
+            </div>
+            <h3 class="text-2xl font-black text-white mb-1">One Day & Multi Day Trips</h3>
+            <span class="inline-block bg-teal-500/15 text-teal-300 border border-teal-500/30 text-[11px] font-bold px-2.5 py-0.5 rounded-full mb-3">
+              Athirappilly • Fort Kochi • Day Rentals
+            </span>
+            <p class="text-slate-300 text-xs sm:text-sm leading-relaxed mb-4">
+              Flexible day trips and weekend getaways. Tour the breathtaking Athirappilly waterfalls, historic Fort Kochi Chinese fishing nets, or shopping areas.
+            </p>
+            <div class="space-y-2 text-xs text-slate-300 mb-6 border-t border-teal-500/20 pt-3.5">
+              <div class="flex items-center"><i class="fa-solid fa-circle-check text-teal-400 mr-2"></i> Flexible 8-hour / 12-hour packages</div>
+              <div class="flex items-center"><i class="fa-solid fa-circle-check text-teal-400 mr-2"></i> Dedicated driver stays with you throughout</div>
+              <div class="flex items-center"><i class="fa-solid fa-circle-check text-teal-400 mr-2"></i> Tour at your own relaxed schedule</div>
+            </div>
+          </div>
+          <button onclick="selectService('One Day & Multi Day Trips', 'Kochi Hotel', 'Athirappilly Waterfalls / Fort Kochi', 'Innova Crysta')" class="w-full bg-gradient-to-r from-teal-500 to-emerald-600 hover:from-teal-400 hover:to-emerald-500 text-black font-black py-3.5 rounded-xl text-xs transition shadow-lg shadow-teal-500/25 flex items-center justify-center space-x-2 cursor-pointer">
+            <span>Book Day / Multi-Day Trip</span>
+            <i class="fa-solid fa-arrow-right text-[10px]"></i>
+          </button>
+        </div>
+
+        <!-- 08: Corporate Travel (Royal Sapphire Blue Glow) -->
+        <div class="color-card-blue rounded-3xl p-7 flex flex-col justify-between shadow-2xl relative overflow-hidden">
+          <div>
+            <div class="flex items-center justify-between mb-5">
+              <!-- Circular Badge with Blue Neon Glow -->
+              <div class="w-16 h-16 rounded-full bg-blue-500/20 border-2 border-blue-400 flex items-center justify-center text-blue-400 text-2xl shadow-lg shadow-blue-500/20">
+                <i class="fa-solid fa-briefcase"></i>
+              </div>
+              <span class="text-3xl font-black text-blue-400/40">#08</span>
+            </div>
+            <h3 class="text-2xl font-black text-white mb-1">Corporate Travel</h3>
+            <span class="inline-block bg-blue-500/15 text-blue-300 border border-blue-500/30 text-[11px] font-bold px-2.5 py-0.5 rounded-full mb-3">
+              Executive Chauffeurs • Infopark • VIP
+            </span>
+            <p class="text-slate-300 text-xs sm:text-sm leading-relaxed mb-4">
+              Punctual, professional transport for company executives, Infopark tech visits, business delegations, and corporate event management.
+            </p>
+            <div class="space-y-2 text-xs text-slate-300 mb-6 border-t border-blue-500/20 pt-3.5">
+              <div class="flex items-center"><i class="fa-solid fa-circle-check text-blue-400 mr-2"></i> Professional English & Malayalam drivers</div>
+              <div class="flex items-center"><i class="fa-solid fa-circle-check text-blue-400 mr-2"></i> Official GST invoices & corporate billing</div>
+              <div class="flex items-center"><i class="fa-solid fa-circle-check text-blue-400 mr-2"></i> Pristine Innova Crysta & executive sedans</div>
+            </div>
+          </div>
+          <button onclick="selectService('Corporate Travel', 'Kochi / Infopark', 'Business Conference / Hotel', 'Innova Crysta')" class="w-full bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-500 hover:to-cyan-500 text-white font-black py-3.5 rounded-xl text-xs transition shadow-lg shadow-blue-500/25 flex items-center justify-center space-x-2 cursor-pointer">
+            <span>Book Corporate Travel</span>
+            <i class="fa-solid fa-arrow-right text-[10px]"></i>
+          </button>
+        </div>
+
+        <!-- 09: Pilgrimage Tours (Sacred Saffron / Red Glow) -->
+        <div class="color-card-saffron rounded-3xl p-7 flex flex-col justify-between shadow-2xl relative overflow-hidden">
+          <span class="absolute top-0 right-0 bg-orange-600 text-white text-[10px] font-black uppercase px-3.5 py-1 rounded-bl-2xl tracking-wider">
+            ★ Devotional
+          </span>
+          <div>
+            <div class="flex items-center justify-between mb-5">
+              <!-- Circular Badge with Saffron Neon Glow -->
+              <div class="w-16 h-16 rounded-full bg-orange-600/20 border-2 border-orange-500 flex items-center justify-center text-orange-400 text-2xl shadow-lg shadow-orange-500/20">
+                <i class="fa-solid fa-hands-praying"></i>
+              </div>
+              <span class="text-3xl font-black text-orange-400/40">#09</span>
+            </div>
+            <h3 class="text-2xl font-black text-white mb-1">Pilgrimage Tours</h3>
+            <span class="inline-block bg-orange-600/15 text-orange-300 border border-orange-500/30 text-[11px] font-bold px-2.5 py-0.5 rounded-full mb-3">
+              Sabarimala • Guruvayur • Padmanabhaswamy
+            </span>
+            <p class="text-slate-300 text-xs sm:text-sm leading-relaxed mb-4">
+              Devotional trips with disciplined drivers experienced in Sabarimala Mandala season traffic, Guruvayur darshan timings, and sacred temple circuits.
+            </p>
+            <div class="space-y-2 text-xs text-slate-300 mb-6 border-t border-orange-500/20 pt-3.5">
+              <div class="flex items-center"><i class="fa-solid fa-circle-check text-orange-400 mr-2"></i> Sabarimala Pamba Base Camp drivers</div>
+              <div class="flex items-center"><i class="fa-solid fa-circle-check text-orange-400 mr-2"></i> 24/7 overnight mountain road expertise</div>
+              <div class="flex items-center"><i class="fa-solid fa-circle-check text-orange-400 mr-2"></i> Guruvayur, Chottanikkara & Velankanni</div>
+            </div>
+          </div>
+          <button onclick="selectService('Pilgrimage Tours', 'Kochi / Kottayam', 'Sabarimala / Guruvayur Temple', 'Innova Crysta')" class="w-full bg-gradient-to-r from-orange-600 to-amber-500 hover:from-orange-500 hover:to-amber-400 text-black font-black py-3.5 rounded-xl text-xs transition shadow-lg shadow-orange-500/25 flex items-center justify-center space-x-2 cursor-pointer">
+            <span>Book Pilgrimage Tour</span>
+            <i class="fa-solid fa-arrow-right text-[10px]"></i>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- POPULAR KERALA TOUR PACKAGES -->
+  <section id="packages" class="py-20 bg-neutral-950/60 backdrop-blur-sm relative border-t border-brand-border overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+        <div>
+          <span class="text-brand-gold text-xs font-black uppercase tracking-[0.2em] bg-brand-gold/15 px-3 py-1 rounded-full border border-brand-gold/30">
+            Top Itineraries
+          </span>
+          <h2 class="text-3xl sm:text-4xl font-black text-white mt-2">
+            Signature Kerala Tour Packages
+          </h2>
+          <p class="text-slate-300 text-sm mt-1">All packages include AC vehicle, fuel, driver bata, tolls, and flexible photo stops.</p>
+        </div>
+        <div class="mt-4 md:mt-0">
+          <a href="https://wa.me/919605913120?text=Hello%20Zero%20Taxi,%20please%20quote%20a%20custom%20tour%20package%20for%20me" target="_blank" class="text-brand-gold hover:underline text-sm font-semibold flex items-center">
+            Need a custom route? Chat on WhatsApp <i class="fa-solid fa-arrow-right ml-2 text-xs"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+        <!-- Package 1: Munnar Mist & Tea Gardens -->
+        <div class="luxury-card rounded-2xl overflow-hidden flex flex-col justify-between group hover:border-emerald-500/40 transition">
+          <div>
+            <div class="h-44 w-full overflow-hidden relative">
+              <img src="assets/images/kerala-munnar.jpg" alt="Munnar Tea Hills Kerala" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+              <div class="absolute inset-0 bg-gradient-to-t from-brand-card via-black/30 to-transparent"></div>
+              <span class="absolute bottom-3 left-4 bg-black/75 backdrop-blur-md border border-brand-gold/40 text-brand-goldLight text-[11px] font-bold px-2.5 py-0.5 rounded-full">
+                <i class="fa-solid fa-mountain mr-1"></i> Munnar Hill Station
+              </span>
+            </div>
+            <div class="p-6">
+              <div class="flex justify-between items-start mb-4">
+                <span class="gold-gradient-bg text-black text-xs font-black px-3 py-1 rounded-full">
+                  3 DAYS / 2 NIGHTS
+                </span>
+                <span class="text-xs text-slate-400"><i class="fa-solid fa-star text-brand-gold"></i> Most Popular</span>
+              </div>
+              <h3 class="text-2xl font-bold text-white mb-2">Munnar Misty Hills Escape</h3>
+              <p class="text-slate-300 text-xs sm:text-sm mb-4 leading-relaxed">
+                Scenic Western Ghats drive through tea carpeted hills, gushing waterfalls, and refreshing mountain breezes.
+              </p>
+              <div class="space-y-2 text-xs text-slate-300 border-t border-brand-border pt-4">
+                <div class="flex items-center"><i class="fa-solid fa-check text-brand-gold mr-2"></i> Cheeyappara & Valara Waterfalls</div>
+                <div class="flex items-center"><i class="fa-solid fa-check text-brand-gold mr-2"></i> Tea Museum & Mattupetty Dam</div>
+                <div class="flex items-center"><i class="fa-solid fa-check text-brand-gold mr-2"></i> Echo Point & Eravikulam National Park</div>
+                <div class="flex items-center"><i class="fa-solid fa-check text-brand-gold mr-2"></i> Pickup & Drop: Cochin Airport / Station</div>
+              </div>
+            </div>
+          </div>
+          <div class="p-6 bg-black/60 border-t border-brand-border flex items-center justify-between">
+            <div>
+              <span class="text-xs text-slate-400 block">Vehicle</span>
+              <span class="text-sm font-bold text-white">Innova Crysta</span>
+            </div>
+            <button onclick="selectPackage('Munnar Misty Hills (3D/2N)', 'Innova Crysta')" class="gold-gradient-bg text-black font-extrabold px-4 py-2 rounded-xl text-xs transition">
+              Book Package
+            </button>
+          </div>
+        </div>
+
+        <!-- Package 2: Alleppey Houseboat & Backwaters -->
+        <div class="luxury-card rounded-2xl overflow-hidden flex flex-col justify-between group hover:border-cyan-500/40 transition">
+          <div>
+            <div class="h-44 w-full overflow-hidden relative">
+              <img src="assets/images/kerala-alleppey.jpg" alt="Alleppey Backwaters Houseboat" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+              <div class="absolute inset-0 bg-gradient-to-t from-brand-card via-black/30 to-transparent"></div>
+              <span class="absolute bottom-3 left-4 bg-black/75 backdrop-blur-md border border-cyan-400/40 text-cyan-300 text-[11px] font-bold px-2.5 py-0.5 rounded-full">
+                <i class="fa-solid fa-water mr-1"></i> Alleppey Backwaters
+              </span>
+            </div>
+            <div class="p-6">
+              <div class="flex justify-between items-start mb-4">
+                <span class="gold-gradient-bg text-black text-xs font-black px-3 py-1 rounded-full">
+                  2 DAYS / 1 NIGHT
+                </span>
+                <span class="text-xs text-slate-400"><i class="fa-solid fa-water text-cyan-400"></i> Backwater Special</span>
+              </div>
+              <h3 class="text-2xl font-bold text-white mb-2">Alleppey Houseboat Cruise</h3>
+              <p class="text-slate-300 text-xs sm:text-sm mb-4 leading-relaxed">
+                Glide along the palm-fringed canals of Alappuzha with traditional Kerala cuisine and tranquil sunsets.
+              </p>
+              <div class="space-y-2 text-xs text-slate-300 border-t border-brand-border pt-4">
+                <div class="flex items-center"><i class="fa-solid fa-check text-brand-gold mr-2"></i> Private Houseboat or Shikara Cruise</div>
+                <div class="flex items-center"><i class="fa-solid fa-check text-brand-gold mr-2"></i> Authentic Kerala Meals on Boat</div>
+                <div class="flex items-center"><i class="fa-solid fa-check text-brand-gold mr-2"></i> Alappuzha Beach & Lighthouse visit</div>
+                <div class="flex items-center"><i class="fa-solid fa-check text-brand-gold mr-2"></i> Chauffeur transfer to/from Kochi</div>
+              </div>
+            </div>
+          </div>
+          <div class="p-6 bg-black/60 border-t border-brand-border flex items-center justify-between">
+            <div>
+              <span class="text-xs text-slate-400 block">Vehicle</span>
+              <span class="text-sm font-bold text-white">Innova Crysta / Dzire</span>
+            </div>
+            <button onclick="selectPackage('Alleppey Houseboat Experience (2D/1N)', 'Innova Crysta')" class="gold-gradient-bg text-black font-extrabold px-4 py-2 rounded-xl text-xs transition">
+              Book Package
+            </button>
+          </div>
+        </div>
+
+        <!-- Package 3: Complete Kerala Classic -->
+        <div class="luxury-card rounded-2xl overflow-hidden flex flex-col justify-between group hover:border-amber-500/40 transition">
+          <div>
+            <div class="h-44 w-full overflow-hidden relative">
+              <img src="assets/images/kerala-waterfalls.jpg" alt="Athirappilly Waterfalls Kerala" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+              <div class="absolute inset-0 bg-gradient-to-t from-brand-card via-black/30 to-transparent"></div>
+              <span class="absolute bottom-3 left-4 bg-black/75 backdrop-blur-md border border-amber-400/40 text-amber-300 text-[11px] font-bold px-2.5 py-0.5 rounded-full">
+                <i class="fa-solid fa-water-ladder mr-1"></i> Athirappilly & Wildlife
+              </span>
+            </div>
+            <div class="p-6">
+              <div class="flex justify-between items-start mb-4">
+                <span class="gold-gradient-bg text-black text-xs font-black px-3 py-1 rounded-full">
+                  5 DAYS / 4 NIGHTS
+                </span>
+                <span class="text-xs text-slate-400"><i class="fa-solid fa-crown text-brand-gold"></i> Best All-Rounder</span>
+              </div>
+              <h3 class="text-2xl font-bold text-white mb-2">Complete Kerala Classic</h3>
+              <p class="text-slate-300 text-xs sm:text-sm mb-4 leading-relaxed">
+                The ultimate Kerala journey: Cochin Heritage, Munnar Hills, Periyar Wildlife at Thekkady, and Alleppey Backwaters.
+              </p>
+              <div class="space-y-2 text-xs text-slate-300 border-t border-brand-border pt-4">
+                <div class="flex items-center"><i class="fa-solid fa-check text-brand-gold mr-2"></i> Fort Kochi Heritage & Chinese Nets</div>
+                <div class="flex items-center"><i class="fa-solid fa-check text-brand-gold mr-2"></i> 2 Nights Munnar Hill Station</div>
+                <div class="flex items-center"><i class="fa-solid fa-check text-brand-gold mr-2"></i> 1 Night Thekkady Spice Safari</div>
+                <div class="flex items-center"><i class="fa-solid fa-check text-brand-gold mr-2"></i> 1 Night Alleppey Houseboat Stay</div>
+              </div>
+            </div>
+          </div>
+          <div class="p-6 bg-black/60 border-t border-brand-border flex items-center justify-between">
+            <div>
+              <span class="text-xs text-slate-400 block">Recommended</span>
+              <span class="text-sm font-bold text-brand-gold font-bold">Toyota Innova Crysta</span>
+            </div>
+            <button onclick="selectPackage('Complete Kerala Classic (5D/4N)', 'Innova Crysta')" class="gold-gradient-bg text-black font-extrabold px-4 py-2 rounded-xl text-xs transition">
+              Book Package
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SCENIC KERALA DESTINATIONS SHOWCASE -->
+  <section id="destinations" class="py-20 bg-neutral-950/50 backdrop-blur-sm border-t border-brand-border relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
+        <span class="text-emerald-400 text-xs font-black uppercase tracking-[0.2em] bg-emerald-500/10 px-3.5 py-1.5 rounded-full border border-emerald-500/30 inline-flex items-center">
+          <i class="fa-solid fa-mountain-sun mr-1.5"></i> God's Own Country Destinations
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-black text-white">
+          Explore Kerala's Most Scenic Paradises
+        </h2>
+        <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+          Experience Kerala in ultimate executive comfort with Zero Taxi's chauffeured Toyota Innova Crysta. Relax through misty tea mountains, tranquil emerald backwaters, and majestic rainforest waterfalls.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- Destination 1: Munnar -->
+        <div class="luxury-card rounded-2xl overflow-hidden group hover:border-emerald-500/60 transition-all duration-300 flex flex-col shadow-2xl">
+          <div class="relative h-64 overflow-hidden">
+            <img src="assets/images/kerala-munnar.jpg" alt="Munnar Tea Hills Kerala" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+            <div class="absolute inset-0 bg-gradient-to-t from-brand-card via-black/20 to-transparent"></div>
+            <div class="absolute top-4 left-4 bg-emerald-500/90 text-black text-xs font-black px-3 py-1 rounded-full shadow-lg flex items-center">
+              <i class="fa-solid fa-cloud-sun mr-1.5"></i> Misty Highlands
+            </div>
+            <div class="absolute bottom-4 left-4 right-4">
+              <span class="text-xs text-emerald-400 font-bold uppercase tracking-wider block mb-1">Western Ghats</span>
+              <h3 class="text-2xl font-black text-white drop-shadow-md">Munnar Tea Gardens</h3>
+            </div>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+            <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
+              Breathtaking valleys, endless rolling green tea plantations, cool mountain weather, and colonial heritage. Enjoy hairpin bends comfortably with our smooth Crysta suspension.
+            </p>
+            <div class="pt-4 border-t border-brand-border space-y-3">
+              <div class="flex justify-between items-center text-xs text-slate-300">
+                <span><i class="fa-solid fa-road text-brand-gold mr-1.5"></i> From Cochin: <strong>110 km (3.5h)</strong></span>
+                <span class="text-emerald-400 font-bold"><i class="fa-solid fa-circle-check mr-1"></i> 24/7 Available</span>
+              </div>
+              <button onclick="selectPackage('Munnar Scenic Tour', 'Innova Crysta')" class="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold py-3.5 rounded-xl text-xs transition flex items-center justify-center space-x-2 cursor-pointer shadow-lg shadow-emerald-950/40">
+                <i class="fa-solid fa-taxi"></i>
+                <span>Book Taxi to Munnar</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Destination 2: Alleppey -->
+        <div class="luxury-card rounded-2xl overflow-hidden group hover:border-cyan-500/60 transition-all duration-300 flex flex-col shadow-2xl">
+          <div class="relative h-64 overflow-hidden">
+            <img src="assets/images/kerala-alleppey.jpg" alt="Alleppey Backwaters Houseboat" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+            <div class="absolute inset-0 bg-gradient-to-t from-brand-card via-black/20 to-transparent"></div>
+            <div class="absolute top-4 left-4 bg-cyan-400 text-black text-xs font-black px-3 py-1 rounded-full shadow-lg flex items-center">
+              <i class="fa-solid fa-ship mr-1.5"></i> Venice of the East
+            </div>
+            <div class="absolute bottom-4 left-4 right-4">
+              <span class="text-xs text-cyan-300 font-bold uppercase tracking-wider block mb-1">Alappuzha</span>
+              <h3 class="text-2xl font-black text-white drop-shadow-md">Alleppey Backwaters</h3>
+            </div>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+            <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
+              Drift along calm emerald lagoons, interconnected canals, and coconut groves in a traditional thatched houseboat while savoring freshly cooked Karimeen pollichathu.
+            </p>
+            <div class="pt-4 border-t border-brand-border space-y-3">
+              <div class="flex justify-between items-center text-xs text-slate-300">
+                <span><i class="fa-solid fa-road text-brand-gold mr-1.5"></i> From Cochin: <strong>85 km (2.0h)</strong></span>
+                <span class="text-cyan-400 font-bold"><i class="fa-solid fa-anchor mr-1"></i> Houseboat Pickup</span>
+              </div>
+              <button onclick="selectPackage('Alleppey Backwater Tour', 'Innova Crysta')" class="w-full bg-cyan-600 hover:bg-cyan-500 text-white font-extrabold py-3.5 rounded-xl text-xs transition flex items-center justify-center space-x-2 cursor-pointer shadow-lg shadow-cyan-950/40">
+                <i class="fa-solid fa-taxi"></i>
+                <span>Book Taxi to Alleppey</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Destination 3: Athirappilly Waterfalls -->
+        <div class="luxury-card rounded-2xl overflow-hidden group hover:border-amber-500/60 transition-all duration-300 flex flex-col shadow-2xl">
+          <div class="relative h-64 overflow-hidden">
+            <img src="assets/images/kerala-waterfalls.jpg" alt="Athirappilly Waterfalls Kerala" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+            <div class="absolute inset-0 bg-gradient-to-t from-brand-card via-black/20 to-transparent"></div>
+            <div class="absolute top-4 left-4 bg-amber-500 text-black text-xs font-black px-3 py-1 rounded-full shadow-lg flex items-center">
+              <i class="fa-solid fa-water-ladder mr-1.5"></i> Niagara of India
+            </div>
+            <div class="absolute bottom-4 left-4 right-4">
+              <span class="text-xs text-amber-300 font-bold uppercase tracking-wider block mb-1">Thrissur Rainforest</span>
+              <h3 class="text-2xl font-black text-white drop-shadow-md">Athirappilly Waterfalls</h3>
+            </div>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+            <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
+              Kerala's most majestic 80-foot high waterfall cascading down the Chalakudy River through lush tropical rainforests. Perfect day-trip destination from Cochin Airport.
+            </p>
+            <div class="pt-4 border-t border-brand-border space-y-3">
+              <div class="flex justify-between items-center text-xs text-slate-300">
+                <span><i class="fa-solid fa-road text-brand-gold mr-1.5"></i> From Cochin: <strong>65 km (1.5h)</strong></span>
+                <span class="text-amber-400 font-bold"><i class="fa-solid fa-tree mr-1"></i> Rainforest Drive</span>
+              </div>
+              <button onclick="selectPackage('Athirappilly Waterfalls Day Trip', 'Innova Crysta')" class="w-full bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-400 hover:to-orange-400 text-black font-extrabold py-3.5 rounded-xl text-xs transition flex items-center justify-center space-x-2 cursor-pointer shadow-lg shadow-amber-950/40">
+                <i class="fa-solid fa-taxi"></i>
+                <span>Book Taxi to Athirappilly</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FLEET SECTION (ALL VEHICLE TYPES) -->
+  <section id="fleet" class="py-20 bg-neutral-950/60 backdrop-blur-sm border-t border-brand-border relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
+        <span class="text-brand-gold text-xs font-black uppercase tracking-[0.2em] bg-brand-gold/10 px-3 py-1 rounded-full border border-brand-gold/30">
+          Our Fleet
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-black text-white">
+          Travel in Spotless Luxury & Safety
+        </h2>
+        <p class="text-slate-400 text-sm sm:text-base">
+          All vehicles are meticulously sanitized, commercially licensed, GPS-enabled, and driven by background-verified chauffeurs.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+        <!-- Flagship Vehicle: Innova Crysta -->
+        <div class="luxury-card-gold rounded-2xl p-6 relative overflow-hidden shadow-2xl">
+          <span class="absolute top-0 right-0 gold-gradient-bg text-black text-[10px] font-black uppercase px-3 py-1 rounded-bl-xl tracking-wider">
+            ★ Flagship Star
+          </span>
+          <div class="text-3xl text-brand-gold mb-3"><i class="fa-solid fa-car-side"></i></div>
+          <h3 class="text-xl font-black text-white">Toyota Innova Crysta</h3>
+          <p class="text-xs text-brand-gold font-bold mt-0.5">KL 08 BW 0770 (White)</p>
+          <div class="my-4 space-y-2 text-xs text-slate-300">
+            <div class="flex justify-between border-b border-white/10 pb-1">
+              <span>Seating:</span>
+              <span class="font-bold text-white">7 / 8 Passengers</span>
+            </div>
+            <div class="flex justify-between border-b border-white/10 pb-1">
+              <span>AC:</span>
+              <span class="font-bold text-white">Dual / Triple Row AC</span>
+            </div>
+            <div class="flex justify-between border-b border-white/10 pb-1">
+              <span>Luggage:</span>
+              <span class="font-bold text-white">4-5 Big Bags</span>
+            </div>
+            <div class="flex justify-between pb-1">
+              <span>Best For:</span>
+              <span class="font-bold text-brand-gold">Hills & Tour Packages</span>
+            </div>
+          </div>
+          <button onclick="selectPackage('Innova Crysta Booking', 'Innova Crysta')" class="w-full gold-gradient-bg text-black font-extrabold py-2.5 rounded-xl text-xs transition">
+            Book Innova Crysta
+          </button>
+        </div>
+
+        <!-- Executive Sedan -->
+        <div class="luxury-card rounded-2xl p-6 relative overflow-hidden">
+          <div class="text-3xl text-brand-gold mb-3"><i class="fa-solid fa-car"></i></div>
+          <h3 class="text-xl font-bold text-white">Executive Sedan</h3>
+          <p class="text-xs text-slate-400 mt-0.5">Swift Dzire / Toyota Etios</p>
+          <div class="my-4 space-y-2 text-xs text-slate-300">
+            <div class="flex justify-between border-b border-white/10 pb-1">
+              <span>Seating:</span>
+              <span class="font-bold text-white">4 Passengers</span>
+            </div>
+            <div class="flex justify-between border-b border-white/10 pb-1">
+              <span>AC:</span>
+              <span class="font-bold text-white">Powerful AC</span>
+            </div>
+            <div class="flex justify-between border-b border-white/10 pb-1">
+              <span>Luggage:</span>
+              <span class="font-bold text-white">2 Big + 2 Small Bags</span>
+            </div>
+            <div class="flex justify-between pb-1">
+              <span>Best For:</span>
+              <span class="font-bold text-white">Airport & City Trips</span>
+            </div>
+          </div>
+          <button onclick="selectPackage('Sedan Booking', 'Executive Sedan')" class="w-full bg-neutral-800 hover:bg-neutral-700 text-white font-bold py-2.5 rounded-xl text-xs border border-white/10 transition">
+            Book Sedan
+          </button>
+        </div>
+
+        <!-- Family MPV: Ertiga -->
+        <div class="luxury-card rounded-2xl p-6 relative overflow-hidden">
+          <div class="text-3xl text-brand-gold mb-3"><i class="fa-solid fa-van-shuttle"></i></div>
+          <h3 class="text-xl font-bold text-white">Family MPV</h3>
+          <p class="text-xs text-slate-400 mt-0.5">Maruti Suzuki Ertiga</p>
+          <div class="my-4 space-y-2 text-xs text-slate-300">
+            <div class="flex justify-between border-b border-white/10 pb-1">
+              <span>Seating:</span>
+              <span class="font-bold text-white">6 Passengers</span>
+            </div>
+            <div class="flex justify-between border-b border-white/10 pb-1">
+              <span>AC:</span>
+              <span class="font-bold text-white">Dual AC</span>
+            </div>
+            <div class="flex justify-between border-b border-white/10 pb-1">
+              <span>Luggage:</span>
+              <span class="font-bold text-white">3-4 Bags</span>
+            </div>
+            <div class="flex justify-between pb-1">
+              <span>Best For:</span>
+              <span class="font-bold text-white">Budget Family Trips</span>
+            </div>
+          </div>
+          <button onclick="selectPackage('Ertiga Booking', 'Family MPV (Ertiga)')" class="w-full bg-neutral-800 hover:bg-neutral-700 text-white font-bold py-2.5 rounded-xl text-xs border border-white/10 transition">
+            Book Family MPV
+          </button>
+        </div>
+
+        <!-- Group Coach: Tempo Traveller -->
+        <div class="luxury-card rounded-2xl p-6 relative overflow-hidden">
+          <div class="text-3xl text-brand-gold mb-3"><i class="fa-solid fa-bus-simple"></i></div>
+          <h3 class="text-xl font-bold text-white">Luxury Tempo Traveller</h3>
+          <p class="text-xs text-slate-400 mt-0.5">Force Urbania & Tempo</p>
+          <div class="my-4 space-y-2 text-xs text-slate-300">
+            <div class="flex justify-between border-b border-white/10 pb-1">
+              <span>Seating:</span>
+              <span class="font-bold text-white">12 / 17 / 26 Seater</span>
+            </div>
+            <div class="flex justify-between border-b border-white/10 pb-1">
+              <span>Comfort:</span>
+              <span class="font-bold text-white">Pushback Recliners</span>
+            </div>
+            <div class="flex justify-between border-b border-white/10 pb-1">
+              <span>Luggage:</span>
+              <span class="font-bold text-white">Massive Rear Trunk</span>
+            </div>
+            <div class="flex justify-between pb-1">
+              <span>Best For:</span>
+              <span class="font-bold text-white">Pilgrimages & Events</span>
+            </div>
+          </div>
+          <button onclick="selectPackage('Tempo Traveller Booking', 'Luxury Tempo Traveller')" class="w-full bg-neutral-800 hover:bg-neutral-700 text-white font-bold py-2.5 rounded-xl text-xs border border-white/10 transition">
+            Book Tempo Traveller
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- INTERACTIVE ROUTE ESTIMATOR & POPULAR DISTANCES -->
+  <section id="routes" class="py-20 bg-neutral-950/60 backdrop-blur-sm relative border-t border-brand-border overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+        
+        <div class="lg:col-span-6 space-y-4">
+          <span class="text-brand-gold text-xs font-black uppercase tracking-[0.2em] bg-brand-gold/10 px-3 py-1 rounded-full border border-brand-gold/30">
+            Trip Estimator
+          </span>
+          <h2 class="text-3xl sm:text-4xl font-black text-white">
+            Plan Your Route Across Kerala
+          </h2>
+          <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+            Select one of Kerala's most popular travel corridors to see estimated driving distance, scenic highlights, and the best recommended vehicle.
+          </p>
+
+          <div class="luxury-card p-6 rounded-2xl space-y-4">
+            <div>
+              <label class="block text-xs font-bold text-slate-300 mb-1">Select Travel Route</label>
+              <select id="popularRouteSelect" class="custom-input w-full px-3 py-2.5 rounded-xl text-sm font-semibold">
+                <option value="cok-munnar" selected>Cochin Airport (COK) ➔ Munnar Hill Station</option>
+                <option value="cok-alleppey">Cochin Airport (COK) ➔ Alleppey Houseboats</option>
+                <option value="kochi-thekkady">Kochi City ➔ Thekkady (Periyar Wildlife)</option>
+                <option value="kochi-wayanad">Kochi / Calicut ➔ Wayanad Hills</option>
+                <option value="kochi-sabarimala">Kochi ➔ Sabarimala (Pamba Base Camp)</option>
+                <option value="kochi-guruvayur">Kochi / Airport ➔ Guruvayur Temple</option>
+              </select>
+            </div>
+
+            <!-- Dynamic Route Stats Box -->
+            <div class="grid grid-cols-2 gap-4 bg-black/60 p-4 rounded-xl border border-white/5">
+              <div>
+                <span class="text-[11px] text-slate-400 block">Approx Distance</span>
+                <span id="routeDistance" class="text-lg font-black text-brand-gold">110 km</span>
+              </div>
+              <div>
+                <span class="text-[11px] text-slate-400 block">Estimated Duration</span>
+                <span id="routeDuration" class="text-lg font-black text-white">3.5 - 4 Hours</span>
+              </div>
+              <div class="col-span-2 pt-2 border-t border-white/10">
+                <span class="text-[11px] text-slate-400 block">Recommended Cab & Scenic Highlight:</span>
+                <span id="routeBestCab" class="text-xs font-semibold text-slate-200">
+                  Toyota Innova Crysta / Sedan (Enroute Cheeyappara & Valara Waterfalls)
+                </span>
+              </div>
+            </div>
+
+            <button type="button" id="routeBookBtn" class="w-full gold-gradient-bg text-black font-black py-3.5 rounded-xl text-sm transition flex items-center justify-center space-x-2 cursor-pointer shadow-lg">
+              <i class="fa-solid fa-taxi"></i>
+              <span>Select Route in Booking Form</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Quick Distance Grid Table -->
+        <div class="lg:col-span-6">
+          <div class="luxury-card rounded-2xl p-6 overflow-hidden">
+            <h3 class="text-xl font-bold text-white mb-4 flex items-center">
+              <i class="fa-solid fa-map-pin text-brand-gold mr-2"></i> Popular Kerala Distances from Cochin (COK)
+            </h3>
+            
+            <div class="overflow-x-auto text-xs sm:text-sm">
+              <table class="w-full text-left">
+                <thead class="text-slate-400 border-b border-brand-border uppercase text-[11px]">
+                  <tr>
+                    <th class="py-2.5">Destination</th>
+                    <th class="py-2.5">Distance</th>
+                    <th class="py-2.5">Avg Time</th>
+                    <th class="py-2.5 text-right">Action</th>
+                  </tr>
+                </thead>
+                <tbody class="divide-y divide-brand-border text-slate-200">
+                  <tr>
+                    <td class="py-3 font-semibold">Munnar</td>
+                    <td class="py-3 text-brand-gold font-bold">110 km</td>
+                    <td class="py-3">3.5 hrs</td>
+                    <td class="py-3 text-right">
+                      <button onclick="selectPackage('Cochin to Munnar', 'Innova Crysta')" class="text-xs text-brand-gold font-bold hover:underline">Book</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="py-3 font-semibold">Alleppey (Alappuzha)</td>
+                    <td class="py-3 text-brand-gold font-bold">85 km</td>
+                    <td class="py-3">2.0 hrs</td>
+                    <td class="py-3 text-right">
+                      <button onclick="selectPackage('Cochin to Alleppey', 'Innova Crysta')" class="text-xs text-brand-gold font-bold hover:underline">Book</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="py-3 font-semibold">Thekkady (Kumily)</td>
+                    <td class="py-3 text-brand-gold font-bold">155 km</td>
+                    <td class="py-3">4.5 hrs</td>
+                    <td class="py-3 text-right">
+                      <button onclick="selectPackage('Cochin to Thekkady', 'Innova Crysta')" class="text-xs text-brand-gold font-bold hover:underline">Book</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="py-3 font-semibold">Athirappilly Waterfalls</td>
+                    <td class="py-3 text-brand-gold font-bold">45 km</td>
+                    <td class="py-3">1.2 hrs</td>
+                    <td class="py-3 text-right">
+                      <button onclick="selectPackage('Cochin to Athirappilly', 'Executive Sedan')" class="text-xs text-brand-gold font-bold hover:underline">Book</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="py-3 font-semibold">Guruvayur Temple</td>
+                    <td class="py-3 text-brand-gold font-bold">95 km</td>
+                    <td class="py-3">2.5 hrs</td>
+                    <td class="py-3 text-right">
+                      <button onclick="selectPackage('Cochin to Guruvayur', 'Innova Crysta')" class="text-xs text-brand-gold font-bold hover:underline">Book</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="py-3 font-semibold">Sabarimala (Pamba)</td>
+                    <td class="py-3 text-brand-gold font-bold">210 km</td>
+                    <td class="py-3">5.5 hrs</td>
+                    <td class="py-3 text-right">
+                      <button onclick="selectPackage('Cochin to Sabarimala', 'Innova Crysta')" class="text-xs text-brand-gold font-bold hover:underline">Book</button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT & FOOTER -->
+  <footer id="contact" class="bg-neutral-950/85 backdrop-blur-md border-t border-brand-border pt-16 pb-24 lg:pb-12 text-slate-400 text-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-brand-border">
+
+        <!-- Brand Col (4 cols) -->
+        <div class="lg:col-span-4 space-y-4">
+          <div class="flex items-center space-x-3">
+            <img src="assets/images/logo.jpg" alt="Zero Taxi Logo" class="h-12 w-auto object-contain rounded-xl border border-brand-gold/40">
+            <div>
+              <span class="text-xl font-black text-white tracking-wider block">ZERO <span class="gold-gradient-text">TAXI</span></span>
+              <span class="text-[10px] text-brand-goldLight font-bold tracking-widest uppercase">Ride Zero. Worry Zero.</span>
+            </div>
+          </div>
+          <p class="text-xs sm:text-sm text-slate-400 leading-relaxed">
+            Kerala's premier 24-hour luxury taxi service featuring pristine Toyota Innova Crysta (<strong class="text-white">KL 08 BW 0770</strong>), sedans, and coaches for outstations, airport transfers, and tour packages.
+          </p>
+          <div class="flex space-x-3 text-brand-gold text-lg">
+            <a href="https://wa.me/919605913120" target="_blank" aria-label="WhatsApp" class="w-9 h-9 rounded-full bg-brand-card flex items-center justify-center hover:bg-brand-gold hover:text-black transition">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="tel:+919605913120" aria-label="Phone" class="w-9 h-9 rounded-full bg-brand-card flex items-center justify-center hover:bg-brand-gold hover:text-black transition">
+              <i class="fa-solid fa-phone"></i>
+            </a>
+            <a href="mailto:booking@zerotaxi.in" aria-label="Email" class="w-9 h-9 rounded-full bg-brand-card flex items-center justify-center hover:bg-brand-gold hover:text-black transition">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Links (2 cols) -->
+        <div class="lg:col-span-2 space-y-3">
+          <h4 class="text-white font-bold text-base">Quick Links</h4>
+          <ul class="space-y-2 text-xs sm:text-sm">
+            <li><a href="#home" class="hover:text-brand-gold transition">Home</a></li>
+            <li><a href="#booking" class="hover:text-brand-gold transition">Book a Ride</a></li>
+            <li><a href="#crysta-showcase" class="hover:text-brand-gold transition">Innova Crysta</a></li>
+            <li><a href="#services" class="hover:text-brand-gold transition">Our Services</a></li>
+            <li><a href="#packages" class="hover:text-brand-gold transition">Kerala Packages</a></li>
+            <li><a href="#destinations" class="hover:text-emerald-400 text-emerald-400 font-semibold transition">Scenic Destinations</a></li>
+            <li><a href="#routes" class="hover:text-brand-gold transition">Distance Guide</a></li>
+          </ul>
+        </div>
+
+        <!-- Services (3 cols) -->
+        <div class="lg:col-span-3 space-y-3">
+          <h4 class="text-white font-bold text-base">Services</h4>
+          <ul class="space-y-2 text-xs sm:text-sm">
+            <li><a href="#packages" class="hover:text-brand-gold transition">Kerala Tour Packages</a></li>
+            <li><a href="#packages" class="hover:text-brand-gold transition">South India Grand Tours</a></li>
+            <li><a href="#booking" class="hover:text-brand-gold transition">Cochin Airport Pickup (COK)</a></li>
+            <li><a href="#booking" class="hover:text-brand-gold transition">Railway Station Taxi</a></li>
+            <li><a href="#services" class="hover:text-brand-gold transition">Pilgrimage (Sabarimala / Guruvayur)</a></li>
+            <li><a href="#services" class="hover:text-brand-gold transition">Corporate & VIP Chauffeurs</a></li>
+          </ul>
+        </div>
+
+        <!-- Direct Contact (3 cols) -->
+        <div class="lg:col-span-3 space-y-3">
+          <h4 class="text-white font-bold text-base">Contact & Dispatch</h4>
+          <div class="space-y-2.5 text-xs sm:text-sm">
+            <div class="flex items-start space-x-3">
+              <i class="fa-solid fa-phone text-brand-gold mt-1"></i>
+              <div>
+                <a href="tel:+919605913120" class="block font-bold text-white hover:text-brand-gold transition">+91 9605 913 120</a>
+                <a href="tel:+919946913120" class="block font-bold text-white hover:text-brand-gold transition">+91 9946 913 120</a>
+              </div>
+            </div>
+            <div class="flex items-start space-x-3">
+              <i class="fa-brands fa-whatsapp text-emerald-400 mt-1"></i>
+              <div>
+                <a href="https://wa.me/919605913120" target="_blank" class="block text-slate-300 hover:text-white transition">Chat with Booking Desk</a>
+                <span class="text-[10px] text-emerald-400 font-semibold">Instant reply</span>
+              </div>
+            </div>
+            <div class="flex items-start space-x-3">
+              <i class="fa-solid fa-location-dot text-brand-gold mt-1"></i>
+              <div>
+                <span class="text-slate-300 block font-semibold">Kadavanthra, Kochi</span>
+                <span class="text-slate-400 text-xs">Kerala - 682020, South India</span>
+              </div>
+            </div>
+            <div class="flex items-center space-x-3">
+              <i class="fa-solid fa-clock text-brand-gold"></i>
+              <span class="text-slate-300">Open 24 Hours / 7 Days a Week</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Copyright -->
+      <div class="pt-8 flex flex-col sm:flex-row justify-between items-center text-xs text-slate-500 gap-4">
+        <p>© 2026 Zero Taxi ("Ride Zero. Worry Zero."). All rights reserved.</p>
+        <p>Premium Toyota Innova Crysta (KL 08 BW 0770) & AC Cab Rentals across Kerala.</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- MOBILE STICKY BOTTOM QUICK ACTION BAR -->
+  <div class="fixed bottom-0 inset-x-0 z-40 bg-black/95 backdrop-blur-md border-t border-brand-border p-3 flex items-center justify-around gap-2 lg:hidden">
+    <a href="tel:+919605913120" class="flex-1 bg-neutral-900 hover:bg-neutral-800 text-white font-extrabold py-2.5 px-3 rounded-xl text-center text-xs border border-brand-gold/30 flex items-center justify-center space-x-2">
+      <i class="fa-solid fa-phone text-brand-gold"></i>
+      <span>Call Desk</span>
+    </a>
+    <a href="https://wa.me/919605913120?text=Hello%20Zero%20Taxi,%20I%20want%20to%20book%20a%20taxi" target="_blank" class="flex-1 bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold py-2.5 px-3 rounded-xl text-center text-xs shadow-lg flex items-center justify-center space-x-2">
+      <i class="fa-brands fa-whatsapp text-base"></i>
+      <span>WhatsApp</span>
+    </a>
+    <a href="#booking" class="flex-1 gold-gradient-bg text-black font-extrabold py-2.5 px-3 rounded-xl text-center text-xs flex items-center justify-center space-x-2">
+      <i class="fa-solid fa-taxi"></i>
+      <span>Book Ride</span>
+    </a>
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
