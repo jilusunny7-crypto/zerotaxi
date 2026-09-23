@@ -1,0 +1,434 @@
+/* Zero Taxi - Ultra Premium Luxury Theme with Colorful Circular Accents & Kerala Scenery */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --gold-primary: #E5A93C;
+  --gold-light: #FFD670;
+  --gold-dark: #B87B19;
+  --bg-deep: #080A0E;
+  --bg-card: #12151D;
+  --bg-card-hover: #181D27;
+  --border-gold: rgba(229, 169, 60, 0.28);
+  --border-subtle: rgba(255, 255, 255, 0.08);
+}
+
+/* Custom Toyota Innova Crysta Mouse Cursor (Transparent PNG without Background) */
+html, body {
+  cursor: url('../images/crysta-cursor.png') 0 6, auto;
+}
+
+a, button, input[type="submit"], input[type="button"], select, [role="button"], label, .cursor-pointer {
+  cursor: url('../images/crysta-cursor.png') 0 6, pointer !important;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="date"], input[type="time"], textarea {
+  cursor: text !important;
+}
+
+/* Site-Wide Fixed Munnar Mountain Road with Toyota Innova Crysta Background */
+html {
+  background-color: var(--bg-deep);
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: transparent !important;
+  color: #F1F5F9;
+  overflow-x: hidden;
+  position: relative;
+  min-height: 100vh;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../images/crysta-munnar-road.jpg');
+  background-size: cover;
+  background-position: center 30%;
+  background-repeat: no-repeat;
+  opacity: 0.50; /* Rich, vivid Munnar tea hill road with Innova Crysta throughout the site */
+  filter: saturate(1.25) brightness(0.9);
+  pointer-events: none;
+  z-index: -2;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(circle at 50% 25%, rgba(229, 169, 60, 0.08), transparent 75%),
+              linear-gradient(to bottom, rgba(8, 10, 14, 0.7) 0%, rgba(8, 10, 14, 0.48) 45%, rgba(8, 10, 14, 0.8) 100%);
+  pointer-events: none;
+  z-index: -1;
+}
+
+h1, h2, h3, h4, h5, h6, .brand-font {
+  font-family: 'Outfit', sans-serif;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #080a0e;
+}
+::-webkit-scrollbar-thumb {
+  background: #232936;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gold-primary);
+}
+
+/* Premium Gold Gradients */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #FFF6D1 0%, #F5BE47 40%, #E5A93C 70%, #9F6B10 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-gradient-bg {
+  background: linear-gradient(135deg, #F5BE47 0%, #E5A93C 60%, #B87B19 100%);
+}
+
+.gold-gradient-bg:hover {
+  background: linear-gradient(135deg, #FFD670 0%, #F5BE47 60%, #C9881F 100%);
+}
+
+/* Brand Logo Strict Single-Line Typography */
+.brand-title {
+  white-space: nowrap !important;
+  word-break: keep-all !important;
+  letter-spacing: 0.05em;
+}
+
+.brand-tagline {
+  white-space: nowrap !important;
+  word-break: keep-all !important;
+  letter-spacing: 0.16em;
+}
+
+/* Hero Background with Munnar Mountain Road & Toyota Innova Crysta */
+.hero-crysta-bg {
+  position: relative;
+  background-color: transparent;
+}
+
+.hero-crysta-bg::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url('../images/crysta-munnar-road.jpg');
+  background-size: cover;
+  background-position: center 38%;
+  background-repeat: no-repeat;
+  opacity: 0.65;
+  filter: saturate(1.25) brightness(0.95);
+  pointer-events: none;
+}
+
+.hero-crysta-bg::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 60% 40%, rgba(229, 169, 60, 0.1), transparent 60%),
+              linear-gradient(to bottom, rgba(8, 10, 14, 0.68) 0%, rgba(8, 10, 14, 0.4) 50%, rgba(8, 10, 14, 0.9) 100%);
+  pointer-events: none;
+}
+
+/* Kerala Scenery Background Overlays */
+.bg-scenery-munnar {
+  position: relative;
+  background-color: #080A0E;
+}
+
+.bg-scenery-munnar::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url('../images/kerala-munnar.jpg');
+  background-size: cover;
+  background-position: center 40%;
+  opacity: 0.22;
+  filter: saturate(1.2);
+  pointer-events: none;
+}
+
+.bg-scenery-munnar::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(8, 10, 14, 0.95) 0%, rgba(8, 10, 14, 0.82) 50%, rgba(8, 10, 14, 0.97) 100%);
+  pointer-events: none;
+}
+
+.bg-scenery-waterfalls {
+  position: relative;
+  background-color: #080A0E;
+}
+
+.bg-scenery-waterfalls::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url('../images/kerala-waterfalls.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.2;
+  filter: saturate(1.2);
+  pointer-events: none;
+}
+
+.bg-scenery-waterfalls::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(8, 10, 14, 0.95) 0%, rgba(8, 10, 14, 0.85) 50%, rgba(8, 10, 14, 0.98) 100%);
+  pointer-events: none;
+}
+
+.bg-scenery-alleppey {
+  position: relative;
+  background-color: #080A0E;
+}
+
+.bg-scenery-alleppey::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url('../images/kerala-alleppey.jpg');
+  background-size: cover;
+  background-position: center 35%;
+  opacity: 0.26;
+  filter: saturate(1.25);
+  pointer-events: none;
+}
+
+.bg-scenery-alleppey::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(8, 10, 14, 0.92) 0%, rgba(8, 10, 14, 0.8) 50%, rgba(8, 10, 14, 0.96) 100%);
+  pointer-events: none;
+}
+
+/* Luxury Glass Cards */
+.luxury-card {
+  background: rgba(18, 21, 29, 0.88);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid var(--border-subtle);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.luxury-card:hover {
+  border-color: var(--border-gold);
+  box-shadow: 0 18px 38px -10px rgba(0, 0, 0, 0.75), 0 0 25px -5px rgba(229, 169, 60, 0.2);
+  transform: translateY(-4px);
+}
+
+.luxury-card-gold {
+  background: rgba(18, 21, 29, 0.94);
+  backdrop-filter: blur(16px);
+  border: 1px solid var(--border-gold);
+  box-shadow: 0 20px 45px -10px rgba(0, 0, 0, 0.8), 0 0 35px -5px rgba(229, 169, 60, 0.2);
+}
+
+/* =========================================================
+   VIBRANT CIRCULAR SERVICES STYLING & GLOWING BORDERS
+   ========================================================= */
+
+/* Circular Badges with Rotating Neon Ring */
+.circle-service-badge {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s ease;
+}
+
+.circle-service-badge::before {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  border-radius: 9999px;
+  background: inherit;
+  filter: blur(10px);
+  opacity: 0.6;
+  z-index: -1;
+  transition: opacity 0.4s ease, filter 0.4s ease;
+}
+
+.circle-service-badge:hover {
+  transform: scale(1.08) rotate(3deg);
+}
+
+.circle-service-badge:hover::before {
+  opacity: 1;
+  filter: blur(14px);
+}
+
+/* Color Palette Card Variants with Glowing Circular Accents */
+
+/* 1. Emerald - Kerala Tour Packages */
+.color-card-emerald {
+  border: 2px solid rgba(16, 185, 129, 0.35);
+  background: linear-gradient(180deg, rgba(16, 185, 129, 0.08) 0%, rgba(18, 21, 29, 0.95) 30%);
+}
+.color-card-emerald:hover {
+  border-color: #10B981;
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.8), 0 0 30px -5px rgba(16, 185, 129, 0.45);
+  transform: translateY(-6px);
+}
+
+/* 2. Orange - South India Tour Packages */
+.color-card-orange {
+  border: 2px solid rgba(249, 115, 22, 0.35);
+  background: linear-gradient(180deg, rgba(249, 115, 22, 0.08) 0%, rgba(18, 21, 29, 0.95) 30%);
+}
+.color-card-orange:hover {
+  border-color: #F97316;
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.8), 0 0 30px -5px rgba(249, 115, 22, 0.45);
+  transform: translateY(-6px);
+}
+
+/* 3. Cyan - Airport Transfers */
+.color-card-cyan {
+  border: 2px solid rgba(6, 182, 212, 0.35);
+  background: linear-gradient(180deg, rgba(6, 182, 212, 0.08) 0%, rgba(18, 21, 29, 0.95) 30%);
+}
+.color-card-cyan:hover {
+  border-color: #06B6D4;
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.8), 0 0 30px -5px rgba(6, 182, 212, 0.45);
+  transform: translateY(-6px);
+}
+
+/* 4. Purple - Railway Station Pickup */
+.color-card-purple {
+  border: 2px solid rgba(168, 85, 247, 0.35);
+  background: linear-gradient(180deg, rgba(168, 85, 247, 0.08) 0%, rgba(18, 21, 29, 0.95) 30%);
+}
+.color-card-purple:hover {
+  border-color: #A855F7;
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.8), 0 0 30px -5px rgba(168, 85, 247, 0.45);
+  transform: translateY(-6px);
+}
+
+/* 5. Rose Pink - Hotel Booking Assistance */
+.color-card-rose {
+  border: 2px solid rgba(244, 63, 94, 0.35);
+  background: linear-gradient(180deg, rgba(244, 63, 94, 0.08) 0%, rgba(18, 21, 29, 0.95) 30%);
+}
+.color-card-rose:hover {
+  border-color: #F43F5E;
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.8), 0 0 30px -5px rgba(244, 63, 94, 0.45);
+  transform: translateY(-6px);
+}
+
+/* 6. Amber Yellow - Tours for All Communities */
+.color-card-amber {
+  border: 2px solid rgba(245, 158, 11, 0.35);
+  background: linear-gradient(180deg, rgba(245, 158, 11, 0.08) 0%, rgba(18, 21, 29, 0.95) 30%);
+}
+.color-card-amber:hover {
+  border-color: #F59E0B;
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.8), 0 0 30px -5px rgba(245, 158, 11, 0.45);
+  transform: translateY(-6px);
+}
+
+/* 7. Teal - One Day & Multi Day Trips */
+.color-card-teal {
+  border: 2px solid rgba(20, 184, 166, 0.35);
+  background: linear-gradient(180deg, rgba(20, 184, 166, 0.08) 0%, rgba(18, 21, 29, 0.95) 30%);
+}
+.color-card-teal:hover {
+  border-color: #14B8A6;
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.8), 0 0 30px -5px rgba(20, 184, 166, 0.45);
+  transform: translateY(-6px);
+}
+
+/* 8. Blue - Corporate Travel */
+.color-card-blue {
+  border: 2px solid rgba(59, 130, 246, 0.35);
+  background: linear-gradient(180deg, rgba(59, 130, 246, 0.08) 0%, rgba(18, 21, 29, 0.95) 30%);
+}
+.color-card-blue:hover {
+  border-color: #3B82F6;
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.8), 0 0 30px -5px rgba(59, 130, 246, 0.45);
+  transform: translateY(-6px);
+}
+
+/* 9. Saffron Gold - Pilgrimage Tours */
+.color-card-saffron {
+  border: 2px solid rgba(234, 88, 12, 0.35);
+  background: linear-gradient(180deg, rgba(234, 88, 12, 0.08) 0%, rgba(18, 21, 29, 0.95) 30%);
+}
+.color-card-saffron:hover {
+  border-color: #EA580C;
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.8), 0 0 30px -5px rgba(234, 88, 12, 0.45);
+  transform: translateY(-6px);
+}
+
+/* Tab button styling */
+.tab-btn.active {
+  background: linear-gradient(135deg, #F5BE47 0%, #E5A93C 100%);
+  color: #080A0E;
+  font-weight: 800;
+  box-shadow: 0 4px 18px rgba(229, 169, 60, 0.35);
+}
+
+/* Custom Input Styling */
+.custom-input {
+  background-color: rgba(10, 12, 17, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #FFFFFF;
+  transition: all 0.2s ease;
+}
+
+.custom-input:focus {
+  border-color: #E5A93C;
+  box-shadow: 0 0 0 3px rgba(229, 169, 60, 0.2);
+  outline: none;
+}
+
+/* Scenery Image Cards with Hover Zoom */
+.scenery-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.4s ease;
+}
+
+.scenery-card:hover {
+  border-color: #E5A93C;
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.85), 0 0 30px -5px rgba(229, 169, 60, 0.3);
+  transform: translateY(-5px);
+}
+
+.scenery-card img {
+  transition: transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.scenery-card:hover img {
+  transform: scale(1.08);
+}
+
+/* Checkered Strip Effect */
+.gold-checkered-strip {
+  background: repeating-linear-gradient(
+    45deg,
+    #E5A93C,
+    #E5A93C 10px,
+    #12151D 10px,
+    #12151D 20px
+  );
+  height: 4px;
+}
